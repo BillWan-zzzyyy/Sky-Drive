@@ -2,7 +2,7 @@
 <div id="top" align="center">
 <p align="center">
   <strong>
-    <h2 align="center">VLM-RL: A Unified Vision Language Models and Reinforcement Learning Framework for Safe Autonomous Driving</h2>
+    <h2 align="center">Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation</h2>
     <h3 align="center"><a href="https://www.huang-zilin.com/VLM-RL-website/">Website</a> | <a href="https://arxiv.org/abs/2412.15544">Paper</a> | <a href="https://www.youtube.com/embed/oXBih9r2DdI?si=XRUEthPoni_zNTR6">Video</a>  </h3>
   </strong>
 </p>

@@ -33,8 +33,8 @@
 > <br/>
 
 ## 📢 News
-- **2025.08**: 🔥🔥 **VLM-RL** has been accepted to *Transportation Research Part C: Emerging Technologies*!  
-  We will release the model weights on [Hugging Face](https://huggingface.co/zihaosheng/VLM-RL) soon. Stay tuned!
+- **2025.08**: 🔥🔥 **Sky-Drive** has been accepted to *Journal of Intelligent and Connected Vehicles*!  
+  We will release the website and related resources soon. Stay tuned!
 
 ## 💡 Highlights <a name="highlight"></a>
 

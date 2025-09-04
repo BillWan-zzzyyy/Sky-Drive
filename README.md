@@ -33,7 +33,7 @@
 > <br/>
 
 ## 📢 News
-- **2025.08**: 🔥🔥 **Sky-Drive** has been accepted to *Journal of Intelligent and Connected Vehicles*!  
+- **2025.08**: 🔥🔥 **Sky-Drive** has been accepted for publication in *Journal of Intelligent and Connected Vehicles*!  
   We will release the website and related resources soon. Stay tuned!
 
 ## 💡 Highlights <a name="highlight"></a>

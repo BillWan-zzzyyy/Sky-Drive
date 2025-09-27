@@ -3,8 +3,8 @@
 <div id="top" style="text-align:center;">
   <h2 style="
     display:inline-flex;
-    align-items:center;   /* 关键：让文字垂直居中对齐到图片中心 */
-    gap:12px;             /* 图与文字间距 */
+    align-items:center; 
+    gap:12px;           
     margin:0;
   ">
     <img src="Sky-Drive.png" width="80" alt="Sky-Drive logo" style="vertical-align:middle;">

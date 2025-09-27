@@ -200,14 +200,14 @@ Special thanks to the following contributors who have helped with this project:
 
 ## 🎯 Citation <a name="citation"></a>
 
-If you find VLM-RL useful for your research, please consider giving us a star 🌟 and citing our paper:
+If you find Sky-Drive useful for your research, you are more than welcome to give us a star 🌟 and citing our paper:
 
 ```BibTeX
-@article{huang2024vlmrl,
-  title={VLM-RL: A Unified Vision Language Models and Reinforcement Learning Framework for Safe Autonomous Driving},
-  author={Huang, Zilin and Sheng, Zihao and Qu, Yansong and You, Junwei and Chen, Sikai},
-  journal={arXiv preprint arXiv:2412.15544},
-  year={2024}
+@article{huang2025sky,
+  title={Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation},
+  author={Huang, Zilin and Sheng, Zihao and Wan, Zhengyang and Qu, Yansong and Luo, Yuhao and Wang, Boyue and Li, Pei and Chen, Yen-Jung and Chen, Jiancong and Long, Keke and others},
+  journal={arXiv preprint arXiv:2504.18010},
+  year={2025}
 }
 ```
 

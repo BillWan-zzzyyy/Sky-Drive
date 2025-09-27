@@ -1,15 +1,11 @@
 # Sky-Drive
 <div id="top" align="center">
-
   <div style="display: flex; align-items: center; width: 100%; max-width: 900px; margin: 0 auto; gap: 15px;">
-  
     <img src="Sky-Drive.png" width="100" alt="Sky-Drive logo" style="flex-shrink: 0;">
-    
     <h2 style="margin: 0; flex-grow: 1; text-align: center; line-height: 1.5;">
       Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation
     </h2>
   </div>
-
   <h3 align="center"><a href="https://sky-lab-uw.github.io/Project%20SkyDrive/">Website</a> | <a href="https://arxiv.org/abs/2504.18010">arXiv</a> | <a href="https://sky-lab-uw.github.io/">Lab Website</a></h3>
 
 </div>

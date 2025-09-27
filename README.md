@@ -163,14 +163,7 @@ Special thanks to the following contributors who have helped with this project:
 <table>
 	<tbody>
 		<tr>
-            <td align="center">
-                <a href="https://github.com/zihaosheng">
-                    <img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=3T-SILsAAAAJ&citpid=7" width="100;" alt="zihaosheng"/>
-                    <br />
-                    <sub><b>Zihao Sheng</b></sub>
-                </a>
-            </td>
-            <td align="center">
+			<td align="center">
                 <a href="https://github.com/zilin-huang">
                     <img src="https://avatars.githubusercontent.com/u/59532565?v=4" width="100;" alt="zilinhuang"/>
                     <br />
@@ -178,17 +171,24 @@ Special thanks to the following contributors who have helped with this project:
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/zihaosheng">
+                    <img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=3T-SILsAAAAJ&citpid=7" width="100;" alt="zihaosheng"/>
+                    <br />
+                    <sub><b>Zihao Sheng</b></sub>
+                </a>
+            </td>
+			<td align="center">
+                <a href="https://github.com/BillWan-zzzyyy">
+                    <img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=6m8LnLUAAAAJ&citpid=18" width="100;" alt="zhengyangwan"/>
+                    <br />
+                    <sub><b>Zhengyang Wan</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://scholar.google.com/citations?user=hIt7KnUAAAAJ&hl=en&oi=sra">
                     <img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=hIt7KnUAAAAJ&citpid=2" width="100;" alt="yansongqu"/>
                     <br />
                     <sub><b>Yansong Qu</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://scholar.google.com/citations?user=wIGL3SQAAAAJ&hl=en">
-                    <img src="https://scholar.google.com/citations/images/avatar_scholar_128.png" width="100;" alt="junweiyou"/>
-                    <br />
-                    <sub><b>Junwei You</b></sub>
                 </a>
             </td>
 		</tr>

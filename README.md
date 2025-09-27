@@ -2,7 +2,7 @@
 <div id="top" align="center">
 <p align="center">
   <strong>
-    <img src="Sky-Drive.png" width="60;" alt="boyuewang"/><h2 align="left">Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation</h2>
+    <h2 align="left"> <img src="Sky-Drive.png" width="70;" alt="boyuewang"/>Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation</h2>
     <h3 align="center"><a href="https://sky-lab-uw.github.io/Project%20SkyDrive/">Website</a> | <a href="https://arxiv.org/abs/2504.18010">arXiv</a> | <a href="https://sky-lab-uw.github.io/">Lab Website</a></h3>
   </strong>
 </p>

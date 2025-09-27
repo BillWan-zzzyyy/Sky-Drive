@@ -11,11 +11,7 @@
     <span>Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation</span>
   </h2>
 
-  <h3 style="margin:8px 0 0; font-weight:600;">
-    <a href="https://sky-lab-uw.github.io/Project%20SkyDrive/">Website</a> |
-    <a href="https://arxiv.org/abs/2504.18010">arXiv</a> |
-    <a href="https://sky-lab-uw.github.io/">Lab Website</a>
-  </h3>
+<h3 align="center"><a href="https://sky-lab-uw.github.io/Project%20SkyDrive/">Website</a> | <a href="https://arxiv.org/abs/2504.18010">arXiv</a> | <a href="https://sky-lab-uw.github.io/">Lab Website</a></h3>
 </div>
 
 

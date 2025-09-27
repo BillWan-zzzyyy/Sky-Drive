@@ -1,4 +1,6 @@
 # Sky-Drive
+> [!IMPORTANT]
+> 🫶 Stay up to date at [Sky-Lab](https://sky-lab-uw.github.io/)!
 <div align="center">
   <div style="display: flex; align-items: center; justify-content: center; gap: 15px;">
     <h2 style="margin: 0; line-height: 1.5; text-align: left;">
@@ -45,6 +47,8 @@ If you find **Sky-Drive** useful for your research, you are more than welcome to
   title={Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation},
   author={Huang, Zilin and Sheng, Zihao and Wan, Zhengyang and Qu, Yansong and Luo, Yuhao and Wang, Boyue and Li, Pei and Chen, Yen-Jung and Chen, Jiancong and Long, Keke and others},
   journal={arXiv preprint arXiv:2504.18010
+        
+        
         
         
         

@@ -34,7 +34,7 @@
 > <sup>✉</sup>Corresponding Author
 > <br/>
 
-<img src="img/fig1.svg" width="600;" alt="skydrive"/>
+<img aligh="center" src="img/fig1.svg" width="1000;" alt="skydrive"/>
 
 ## 📢 News
 - **2025.08**: 🔥🔥 **Sky-Drive** has been accepted for publication in *Journal of Intelligent and Connected Vehicles*!  

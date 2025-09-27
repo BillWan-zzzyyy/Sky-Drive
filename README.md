@@ -1,7 +1,7 @@
 # Sky-Drive
 <div id="top" align="center">
   
-  <div style="display: flex; justify-content: center; align-items: center; gap: 12px; flex-wrap: wrap;">
+  <div style="display: flex; justify-content: center; align-items: center; gap: 0px; flex-wrap: wrap;">
     <img src="Sky-Drive.png" width="80" alt="Sky-Drive logo">
     <h2 style="margin: 0; text-align: center;">
       Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation

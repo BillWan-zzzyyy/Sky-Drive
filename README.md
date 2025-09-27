@@ -36,6 +36,23 @@
 - **2025.08**: 🔥🔥 **Sky-Drive** has been accepted for publication in *Journal of Intelligent and Connected Vehicles*!  
   We will release the website and related resources soon. Stay tuned!
 
+## 🎯 Citation <a name="citation"></a>
+
+If you find **Sky-Drive** useful for your research, you are more than welcome to give us a star 🌟 and citing our paper:
+
+```BibTeX
+@article{huang2025sky,
+  title={Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation},
+  author={Huang, Zilin and Sheng, Zihao and Wan, Zhengyang and Qu, Yansong and Luo, Yuhao and Wang, Boyue and Li, Pei and Chen, Yen-Jung and Chen, Jiancong and Long, Keke and others},
+  journal={arXiv preprint arXiv:2504.18010
+        
+        },
+  year={2025}
+}
+```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## 💡 Highlights <a name="highlight"></a>
 
 🔥 To the best of our knowledge, **VLM-RL** is the first work in the autonomous driving field to unify VLMs with RL for
@@ -205,22 +222,6 @@ Special thanks to the following contributors who have helped with this project:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## 🎯 Citation <a name="citation"></a>
-
-If you find **Sky-Drive** useful for your research, you are more than welcome to give us a star 🌟 and citing our paper:
-
-```BibTeX
-@article{huang2025sky,
-  title={Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation},
-  author={Huang, Zilin and Sheng, Zihao and Wan, Zhengyang and Qu, Yansong and Luo, Yuhao and Wang, Boyue and Li, Pei and Chen, Yen-Jung and Chen, Jiancong and Long, Keke and others},
-  journal={arXiv preprint arXiv:2504.18010
-        
-        },
-  year={2025}
-}
-```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## 📚 Other Resources <a name="resources"></a>
 

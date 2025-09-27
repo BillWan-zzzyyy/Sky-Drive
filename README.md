@@ -3,7 +3,7 @@
 <p align="center">
   <strong>
     <h2 align="center">Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation</h2>
-    <h3 align="center"><a href="https://sky-lab-uw.github.io/Project%20SkyDrive/">Website</a> | <a href="https://arxiv.org/abs/2504.18010">arXiv</a> </h3>
+    <h3 align="center"><a href="https://sky-lab-uw.github.io/Project%20SkyDrive/">Website</a> | <a href="https://arxiv.org/abs/2504.18010">arXiv</a> | <a href="https://sky-lab-uw.github.io/">Lab Website</a></h3>
   </strong>
 </p>
 </div>
@@ -206,7 +206,9 @@ If you find **Sky-Drive** useful for your research, you are more than welcome to
 @article{huang2025sky,
   title={Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation},
   author={Huang, Zilin and Sheng, Zihao and Wan, Zhengyang and Qu, Yansong and Luo, Yuhao and Wang, Boyue and Li, Pei and Chen, Yen-Jung and Chen, Jiancong and Long, Keke and others},
-  journal={arXiv preprint arXiv:2504.18010},
+  journal={arXiv preprint arXiv:2504.18010
+        
+        },
   year={2025}
 }
 ```
@@ -217,8 +219,10 @@ If you find **Sky-Drive** useful for your research, you are more than welcome to
 
 Our team is actively working on research projects in the field of AI and autonomous driving. Here are a few of them you might find interesting:
 
+- **[VLM-RL for Safe Autonomous Driving](https://github.com/zihaosheng/VLM-RL)**
 - **[Human as AI mentor](https://zilin-huang.github.io/HAIM-DRL-website/)**
 - **[Physics-enhanced RLHF](https://zilin-huang.github.io/PE-RLHF-website/)**
+- **[LLM for for Interactive and Traffic Scenario Generation](https://github.com/zihaosheng/Talk2Traffic)**
 - **[Traffic expertise meets residual RL](https://github.com/zihaosheng/traffic-expertise-RL)**
   
 <p align="right">(<a href="#top">back to top</a>)</p>

@@ -200,7 +200,7 @@ Special thanks to the following contributors who have helped with this project:
 
 ## 🎯 Citation <a name="citation"></a>
 
-If you find Sky-Drive useful for your research, you are more than welcome to give us a star 🌟 and citing our paper:
+If you find **Sky-Drive** useful for your research, you are more than welcome to give us a star 🌟 and citing our paper:
 
 ```BibTeX
 @article{huang2025sky,

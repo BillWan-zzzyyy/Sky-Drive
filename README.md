@@ -191,6 +191,21 @@ Special thanks to the following contributors who have helped with this project:
                     <sub><b>Yansong Qu</b></sub>
                 </a>
             </td>
+			</td>
+            <td align="center">
+                <a href="https://scholar.google.com/citations?user=CNdSjWAAAAAJ&hl=en">
+                    <img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=CNdSjWAAAAAJ&citpid=2" width="100;" alt="yuhaoluo"/>
+                    <br />
+                    <sub><b>Yuhao Luo</b></sub>
+                </a>
+            </td>
+	        <td align="center">
+                <a href="https://scholar.google.com/citations?user=CR7HWjcAAAAJ&hl=zh-CN">
+                    <img src="https://sky-lab-uw.github.io/assets/img/group-members/group_boyue.jpg" width="100;" alt="boyuewang"/>
+                    <br />
+                    <sub><b>Boyue Wang</b></sub>
+                </a>
+            </td>
 		</tr>
 	<tbody>
 </table>

@@ -3,7 +3,6 @@
 
   <div style="display: flex; align-items: center; width: 100%; max-width: 900px; margin: 0 auto; gap: 15px;">
     <img src="Sky-Drive.png" width="80" alt="Sky-Drive logo" style="flex-shrink: 0;">
-    
     <h2 style="margin: 0; flex-grow: 1; text-align: center;">
       Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation
     </h2>
@@ -50,6 +49,10 @@ If you find **Sky-Drive** useful for your research, you are more than welcome to
   title={Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation},
   author={Huang, Zilin and Sheng, Zihao and Wan, Zhengyang and Qu, Yansong and Luo, Yuhao and Wang, Boyue and Li, Pei and Chen, Yen-Jung and Chen, Jiancong and Long, Keke and others},
   journal={arXiv preprint arXiv:2504.18010
+        
+        
+        
+        
         
         
         

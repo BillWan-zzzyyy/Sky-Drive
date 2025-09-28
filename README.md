@@ -8,7 +8,7 @@
 <div align="center">
   <div>
 		 <img src="Sky-Drive.png" width="45;" style="veritical-align: middle;" alt="skydrive"/> 
-	**Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation**
+  Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation
   </div>
   <h3 align="center"><a href="https://sky-lab-uw.github.io/Project%20SkyDrive/">Website</a> | <a href="https://arxiv.org/abs/2504.18010">arXiv</a></h3>
 </div>

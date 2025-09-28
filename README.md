@@ -85,8 +85,6 @@ If you find **Sky-Drive** useful for your research, you are more than welcome to
 
 ## 🚋 Training <a name="training"></a>
 
-### Training VLM-RL
-
 
 
 ## 📊 Evaluation <a name="evaluation"></a>

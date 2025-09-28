@@ -1,3 +1,4 @@
+<img src="Sky-Drive.png" width="40;" style="veritical-align: baseline;" alt="skydrive"/>
 # Sky-Drive
 > [!IMPORTANT]
 > We are currently in the process of organizing our code, and will release the code on GitHub in the near future.
@@ -7,7 +8,6 @@
 <div align="center">
   <div>
     <h2 style="margin: 0; line-height: 1.5; text-align: left;">
-      <img src="Sky-Drive.png" width="40;" style="veritical-align: baseline;" alt="skydrive"/>
 	Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation
     </h2>
   </div>

@@ -1,5 +1,4 @@
-<img src="Sky-Drive.png" width="40;" style="veritical-align: baseline;" alt="skydrive"/>
-# Sky-Drive
+# Sky-Drive <img src="Sky-Drive.png" width="40;" style="veritical-align: baseline;" alt="skydrive"/>
 
 > [!IMPORTANT]
 > We are currently in the process of organizing our code, and will release the code on GitHub in the near future.

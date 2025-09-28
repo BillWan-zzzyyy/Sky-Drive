@@ -7,10 +7,15 @@
 
 <div align="center">
   <div>
-	  <h2>
-		 <img src="Sky-Drive.png" width="45;" style="veritical-align: middle;" alt="skydrive"/> 
-  Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation
-	  </h2>
+<h2 style="
+    display:inline-flex;
+    align-items:center;   /* 关键：让文字垂直居中对齐到图片中心 */
+    gap:12px;             /* 图与文字间距 */
+    margin:0;
+  ">
+    <img src="Sky-Drive.png" width="80" alt="Sky-Drive logo" style="vertical-align:middle;">
+    <span>Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation</span>
+  </h2>
   </div>
   <h3 align="center"><a href="https://sky-lab-uw.github.io/Project%20SkyDrive/">Website</a> | <a href="https://arxiv.org/abs/2504.18010">arXiv</a></h3>
 </div>

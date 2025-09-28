@@ -13,7 +13,7 @@
     gap:12px;             /* 图与文字间距 */
     margin:0;
   ">
-    <img src="Sky-Drive.png" width="80" alt="Sky-Drive logo" style="vertical-align:middle;">
+    <img src="Sky-Drive.png" width="45" alt="Sky-Drive logo" style="vertical-align:middle;">
     <span>Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation</span>
   </h2>
   </div>

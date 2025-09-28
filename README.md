@@ -4,7 +4,7 @@
 <div align="center">
   <div style="display: flex; align-items: center; justify-content: center; gap: 15px;">
     <h2 style="margin: 0; line-height: 1.5; text-align: left;">
-      <img src="Sky-Drive.png" width="50;" style="vertical-align:middle; position:relative; top:20px;" alt="skydrive"/>Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation
+      <img src="Sky-Drive.png" width="50;" style="vertical-align:middle; position:relative; top:2000px;" alt="skydrive"/>Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation
     </h2>
   </div>
   <h3 align="center"><a href="https://sky-lab-uw.github.io/Project%20SkyDrive/">Website</a> | <a href="https://arxiv.org/abs/2504.18010">arXiv</a></h3>

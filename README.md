@@ -5,7 +5,7 @@
 <div align="center">
   <div>
     <h2 style="margin: 0; line-height: 1.5; text-align: left;">
-      <img src="Sky-Drive.png" width="50;" style="vertical-align: text-bottom;" alt="skydrive"/>
+      <img src="Sky-Drive.png" width="50;" style="veritical-align: text-bottom;" alt="skydrive"/>
 	Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation
     </h2>
   </div>

@@ -9,8 +9,8 @@
   <div>
 <h2 style="
     display:inline-flex;
-    align-items:center;   /* 关键：让文字垂直居中对齐到图片中心 */
-    gap:12px;             /* 图与文字间距 */
+    align-items:center;
+    gap:12px;             
     margin:0;
   ">
     <img src="Sky-Drive.png" width="45" alt="Sky-Drive logo" style="vertical-align:middle;">
@@ -90,7 +90,6 @@ If you find **Sky-Drive** useful for your research, you are more than welcome to
 
 ## 📊 Evaluation <a name="evaluation"></a>
 
-To evaluate trained model checkpoints, run:
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>

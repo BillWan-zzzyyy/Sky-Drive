@@ -14,7 +14,7 @@
     margin:0;
   ">
     <img src="Sky-Drive.png" width="45" alt="Sky-Drive logo" style="vertical-align:middle;">
-    <span>Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation</span>
+    <span> sSky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation</span>
   </h2>
   </div>
   <h3 align="center"><a href="https://sky-lab-uw.github.io/Project%20SkyDrive/">Website</a> | <a href="https://arxiv.org/abs/2504.18010">JICV</a> | <a href="https://arxiv.org/abs/2504.18010">arXiv</a> </h3>

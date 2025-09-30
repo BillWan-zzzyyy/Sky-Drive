@@ -12,10 +12,6 @@
   align-items:center;
   gap:12px;
   margin:0;
-  background:linear-gradient(90deg,#832732,#b64756); /* 渐变色可自定义 */
-  -webkit-background-clip:text;
-  background-clip:text;
-  color:transparent;
 ">
   <img src="Sky-Drive.png" width="45" alt="Sky-Drive logo" style="vertical-align:middle;">
   Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation

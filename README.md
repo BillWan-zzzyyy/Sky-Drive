@@ -148,7 +148,9 @@ If you find **Sky-Drive** useful for your research, you are more than welcome to
 @article{huang2025sky,
   title={Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation},
   author={Huang, Zilin and Sheng, Zihao and Wan, Zhengyang and Qu, Yansong and Luo, Yuhao and Wang, Boyue and Li, Pei and Chen, Yen-Jung and Chen, Jiancong and Long, Keke and others},
-  journal={arXiv preprint arXiv:2504.18010},
+  journal={arXiv preprint arXiv:2504.18010
+        
+        },
   year={2025}
 }
 ```
@@ -158,7 +160,7 @@ If you find **Sky-Drive** useful for your research, you are more than welcome to
 
 ## 📚 Other Resources <a name="resources"></a>
 
-Our team is actively working on research projects in the field of AI and autonomous driving. Here are a few of them you might find interesting:
+Our team at Sky-Lab is actively working on research projects in the field of AI and autonomous driving. Here are a few of them you might find interesting:
 
 - **[VLM-RL for Safe Autonomous Driving](https://github.com/zihaosheng/VLM-RL)**
 - **[Human as AI mentor](https://zilin-huang.github.io/HAIM-DRL-website/)**

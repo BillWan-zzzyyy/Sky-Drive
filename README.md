@@ -8,14 +8,19 @@
 <div align="center">
   <div>
 <h2 style="
-    display:inline-flex;
-    align-items:center;
-    gap:12px;             
-    margin:0;
-  ">
-    <img src="Sky-Drive.png" width="45" alt="Sky-Drive logo" style="vertical-align:middle;">
-    Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation
-  </h2>
+  display:inline-flex;
+  align-items:center;
+  gap:12px;
+  margin:0;
+  background:linear-gradient(90deg,#832732,#b64756); /* 渐变色可自定义 */
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+">
+  <img src="Sky-Drive.png" width="45" alt="Sky-Drive logo" style="vertical-align:middle;">
+  Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation
+</h2>
+
 	 <h4> (This paper was accepted by Journal of Intelligent and Connected Vehicles (JICV) in August, 2025)</h4>
   </div>
   <h3 align="center"><a href="https://sky-lab-uw.github.io/Project%20SkyDrive/">Website</a> | <a href="https://arxiv.org/abs/2504.18010">JICV</a> | <a href="https://arxiv.org/abs/2504.18010">arXiv</a> </h3>

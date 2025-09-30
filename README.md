@@ -56,9 +56,7 @@
 
 ## 💡 Highlights <a name="highlight"></a>
 
-🟧 Sky-Drive is a distributed multi-agent simulation platform designed for socially-aware autonomous driving and human-AI collaboration in future transportation
-systems. 
-🟥 Unlike existing simulators that primarily focus on validating single-vehicle performance, Sky-Drive addresses the emerging need to explore complex interactions in **mixed traffic environments where various intelligent agents** must align with human preferences and societal norms.
+🟥 Sky-Drive addresses the emerging need to explore complex interactions in **mixed traffic environments where various intelligent agents** must align with human preferences and societal norms.
 
 🏁 
 

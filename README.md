@@ -14,7 +14,7 @@
     margin:0;
   ">
     <img src="Sky-Drive.png" width="45" alt="Sky-Drive logo" style="vertical-align:middle;">
-    <span> Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation</span>
+    Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation
   </h2>
 	 <h4> (This paper was accepted by Journal of Intelligent and Connected Vehicles (JICV) in August, 2025)</h4>
   </div>

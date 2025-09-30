@@ -121,7 +121,7 @@ Special thanks to the following contributors who have helped with this project:
 			</td>
             <td align="center">
                 <a href="https://scholar.google.com/citations?user=CNdSjWAAAAAJ&hl=en">
-                    <img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=CNdSjWAAAAAJ&citpid=2" width="100;" alt="yuhaoluo"/>
+                    <img src="https://sky-lab-uw.github.io/assets/img/group-members/group_yuhao.jpg" width="100;" alt="yuhaoluo"/>
                     <br />
                     <sub><b>Yuhao Luo</b></sub>
                 </a>

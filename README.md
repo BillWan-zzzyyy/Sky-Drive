@@ -8,7 +8,7 @@
 <div align="center">
   <div>
   <img src="Sky-Drive.png" width="45" alt="Sky-Drive logo" style="vertical-align:middle;">
-<img src="assets/skydrive-title-solid.svg" alt="Sky-Drive title" height="28">
+<img src="assets/skydrive-title-solid.svg" alt="Sky-Drive title" height="58">
 	 <h4> (This paper was accepted by Journal of Intelligent and Connected Vehicles (JICV) in August, 2025)</h4>
   </div>
   <h3 align="center"><a href="https://sky-lab-uw.github.io/Project%20SkyDrive/">Website</a> | <a href="https://arxiv.org/abs/2504.18010">JICV</a> | <a href="https://arxiv.org/abs/2504.18010">arXiv</a> </h3>

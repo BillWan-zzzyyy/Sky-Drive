@@ -56,7 +56,7 @@
 
 ## 💡 Highlights <a name="highlight"></a>
 
-- 🚀 **Sky-Drive** has the potential to advance autonomous driving research beyond traditional metrics of safety and efficiency **toward more socially aware and human-aligned behavior.
+- 🚀 **Sky-Drive** has the potential to advance autonomous driving research beyond traditional metrics of safety and efficiency **toward more socially aware and human-aligned behavior.**
 - 🤔 This paper addresses the emerging need to explore complex interactions in **mixed traffic environments where various intelligent agents** must align with human preferences and societal norms.
 
 

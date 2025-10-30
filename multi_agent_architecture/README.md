@@ -4,8 +4,7 @@
 > System Setting: CARLA 0.9.13 UBUNTU 20.04
 
 
-## 💡 Install requirements
-
+## 1. Install socket.io
 ```
 # install socket.io
 npm init -y
@@ -14,7 +13,8 @@ pip install python-socketio
 pip install websocket-client
 ```
 
-
-## 📋 Table of Contents
+## 2. run socket server
+```
+node 
 
 

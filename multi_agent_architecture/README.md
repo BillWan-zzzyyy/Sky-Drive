@@ -15,18 +15,6 @@ pip install websocket-client
 ```
 
 
-
 ## 📋 Table of Contents
 
-1. [Highlights](#highlight)
-2. [Getting Started](#setup)
-3. [Training](#training)
-4. [Evaluation](#evaluation)
-5. [Contributors](#contributors)
-6. [Citation](#citation)
-7. [Other Resources](#resources)
 
-## 🛠️ Getting Started <a name="setup"></a>
-
-
-## 🚋 Training <a name="training"></a>

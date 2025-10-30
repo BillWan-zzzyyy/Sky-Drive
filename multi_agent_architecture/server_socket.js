@@ -5,7 +5,7 @@
  */
 
 // -----------------------------
-// 1) Config & Constants / 配置与常量
+// Config
 // -----------------------------
 const http = require('http');
 const express = require('express');
@@ -40,8 +40,7 @@ const EVENTS = {
 };
 
 /**
- * Difine different client types
- * 定义不同client类型
+ * Define different client types
  */
 const CLIENT_TYPES = {
   CARLA: 'Carla',
@@ -49,7 +48,7 @@ const CLIENT_TYPES = {
 };
 
 // -----------------------------
-// 2) Logger (utility) / 日志工具
+// Logger
 // -----------------------------
 
 function _ts() {
@@ -63,14 +62,14 @@ const logger = {
 };
 
 // -----------------------------
-// 3) Validators (utility) / 校验函数
+// Validators
 // -----------------------------
 /**
  * Validate basic Carla telemetry payload structure.
  * @param {object} data - Expected object
- * @returns {boolean} true if valid / 若有效返回 true
+ * @returns {boolean} true if valid
  * @example
- * // Example / 例:
+ * // Example
  * // is_valid_carla_data({ speed: 10, heading: 1.57 }) -> true
  */
 function is_valid_carla_data(data) {
@@ -83,7 +82,6 @@ function is_valid_carla_data(data) {
  * @returns {boolean}
  * @example
  * // is_valid_sensor_image({ id: 'cam01', image: 'data:image/png;base64,...' }) -> true
- * // 传入 { id:'cam01', image:'data:image/png;base64,...' } -> true
  */
 function is_valid_sensor_image(data) {
   return Boolean(
@@ -100,7 +98,6 @@ function is_valid_sensor_image(data) {
  * @returns {boolean}
  * @example
  * // is_valid_radar_data({ id:'rad01', frame:12, radar_info:{points:[...]}}) -> true
- * // 传入 { id:'rad01', frame:12, radar_info:{points:[...]}} -> true
  */
 function is_valid_radar_data(data) {
   return Boolean(
@@ -113,7 +110,7 @@ function is_valid_radar_data(data) {
 }
 
 // -----------------------------
-// 4) CarlaRegistry (state) / Carla 客户端注册表
+// CarlaRegistry
 // -----------------------------
 
 class CarlaRegistry {
@@ -124,7 +121,6 @@ class CarlaRegistry {
 
   /**
    * Add a Carla client by socket id.
-   * 通过 socket id 注册 Carla 客户端。
    * @param {string} socket_id
    * @example
    * // add
@@ -136,7 +132,6 @@ class CarlaRegistry {
 
   /**
    * Remove a Carla client by socket id.
-   * 移除 Carla 客户端。
    * @param {string} socket_id
    */
   remove(socket_id) {
@@ -145,7 +140,6 @@ class CarlaRegistry {
 
   /**
    * Check if a socket id belongs to a Carla client.
-   * 判断某 socket 是否为 Carla 客户端。
    * @param {string} socket_id
    * @returns {boolean}
    * @example
@@ -157,17 +151,15 @@ class CarlaRegistry {
 }
 
 // -----------------------------
-// 5) Handlers (business) / 业务事件处理
+// Handlers
 // -----------------------------
 /**
  * Register handlers for Carla-originated events on a connected socket.
- * 为 Carla 客户端注册事件处理器。
- * @param {import('socket.io').Server} io - Socket.IO server instance / Socket.IO 服务实例
- * @param {import('socket.io').Socket} socket - Connected client's socket / 客户端 socket
+ * @param {import('socket.io').Server} io - Socket.IO server instance
+ * @param {import('socket.io').Socket} socket - Connected client's socket
  * @example
  * // register_carla_handlers(io, socket)
  * // After client emits: socket.emit('register', 'Carla')
- * // 客户端先发送：socket.emit('register','Carla') 后再注册
  */
 function register_carla_handlers(io, socket) {
   // carla-data
@@ -177,7 +169,6 @@ function register_carla_handlers(io, socket) {
       return;
     }
     // Broadcast to all clients.
-    // 广播给所有客户端。
     io.emit(EVENTS.CARLA_DATA, data);
   });
 
@@ -205,21 +196,18 @@ function register_carla_handlers(io, socket) {
 
 /**
  * Register handlers for Web clients (placeholder for future features).
- * 为 Web 客户端注册事件处理（占位以便后续扩展）。
  * @param {import('socket.io').Server} _io
  * @param {import('socket.io').Socket} _socket
  */
 function register_web_handlers(_io, _socket) {
   // Add web-side listeners here as needed.
-  // 如有需要，在此添加 Web 侧监听逻辑。
 }
 
 // -----------------------------
-// 6) Socket init (composition) / Socket 初始化与装配
+// Socket init
 // -----------------------------
 /**
  * Initialize Socket.IO connection lifecycle and route client types to handlers.
- * 初始化 Socket.IO 连接生命周期，并按客户端类型路由到对应处理器。
  * @param {import('socket.io').Server} io
  * @param {CarlaRegistry} registry
  */
@@ -228,7 +216,6 @@ function init_socket(io, registry) {
     logger.info('Client Connected:', socket.id);
 
     // Register client type
-    // 注册客户端类型
     socket.on(EVENTS.REGISTER, (client_type) => {
       if (client_type === CLIENT_TYPES.CARLA) {
         registry.add(socket.id);
@@ -243,7 +230,6 @@ function init_socket(io, registry) {
     });
 
     // Disconnect handling
-    // 断开连接处理
     socket.on(EVENTS.DISCONNECT, () => {
       const was_carla = registry.has(socket.id);
       if (was_carla) {
@@ -258,17 +244,16 @@ function init_socket(io, registry) {
 }
 
 // -----------------------------
-// 7) Server bootstrap / 服务器启动
+// Server bootstrap
 // -----------------------------
 /**
  * Start HTTP server
- * 启动 HTTP 服务器
  *
  * @example
  * // node server_socket.js
  *
  * @example
- * // Example messages / 示例消息
+ * // Example
  * // socket.emit('sensor-image', { id:'cam01', image:'data:image/png;base64,...' })
  */
 function main() {

@@ -25,3 +25,4 @@ node server_socket.js
 ## 3. Run manual_control_with_websocket.py on the CARLA host and client
 
 ## 4. Run website.html to get the real-time img and info.
+![website](img/website_multiagent.png)

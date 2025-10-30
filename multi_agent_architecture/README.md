@@ -6,12 +6,13 @@
 
 ## 💡 Install requirements
 
-···
+```
+# install socket.io
 npm init -y
 npm install socket.io
 pip install python-socketio
 pip install websocket-client
-···
+```
 
 
 

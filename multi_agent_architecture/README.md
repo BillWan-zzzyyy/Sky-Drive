@@ -1,4 +1,4 @@
-# How to establish the multi-agent connection based on CARLA and Socket.IO
+# Tutorial to establish the multi-agent connection based on CARLA and Socket.IO
 
 ## 💡 Highlights <a name="highlight"></a>
 

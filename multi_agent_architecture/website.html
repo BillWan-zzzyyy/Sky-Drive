@@ -1,0 +1,363 @@
+  /**
+     * This script renders a BEV map and live client panels driven by Socket.IO events and CARLA data.
+     */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Vehicle Info Monitor</title>
+
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #clients {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;          
+            margin-top: 20px;
+        }
+        .client {
+            border: 2px solid #333; 
+            padding: 6px;           
+            border-radius: 8px; 
+            background: #f9f9f9;
+            width: 340px; 
+            height: auto;
+        }
+        .client-header {
+            font-weight: bold;
+            color: #333;
+        }
+        #mapCanvas {
+            border: 1px solid #333; 
+            margin-top: 1px;
+        }
+        .sensorImage {
+            display: flex;
+            margin-top: 10px;
+            border: 1px solid #333; 
+            width: 300px;           
+            height: 180px;    
+        }
+        .sensorImage.loading {
+            opacity: 1; 
+        }
+    </style>
+
+    <!-- Socket.IO client -->
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <h1>Vehicle Info Monitor in Town_10</h1>
+
+    <!-- Canvas: size preserved exactly (600 x 600) -->
+    <canvas id="mapCanvas" width="600" height="600" aria-label="Town bird’s-eye map"></canvas>
+
+    <!-- Container for live client cards -->
+    <div id="clients" aria-live="polite"></div>
+
+    <script>
+    // =========================
+    // Constants
+    // =========================
+    const CONSTANTS = {
+        assets: {
+            background: 'town10hd_birdseye_view.png' // original path
+        },
+        canvas: {
+            width: 600,     
+            height: 600     
+        },
+        drawing: {
+            scale_x: 2.5,  
+            scale_y: 2.5,   
+            offset_label_dx: 6,  
+            offset_label_dy: -6, 
+            vehicle_radius: 5, 
+            y_shift: -75
+        },
+        images: {
+            refresh_interval_ms: 50 
+        },
+        radar: {
+            keep_rows: 6
+        },
+        events: {
+            REGISTER: 'register',
+            SENSOR_IMAGE: 'sensor-image',
+            RADAR_DATA: 'radar-data',
+            CARLA_DATA: 'carla-data',
+            CLIENT_DISCONNECTED: 'client-disconnected'
+        },
+        client_types: {
+            WEB: 'web'
+        }
+    };
+
+    // =========================
+    // State
+    // =========================
+    /** @type {Record<string, {color:string, position?:number[], velocity?:number[], radar?:any[], frame?:number, lastPosition?:number[]}>} */
+    const clients_state = {};
+    /** @type {Record<string, number>} last timestamp per client for throttling sensor images */
+    const last_update_time = {};
+
+    // Canvas and contexts
+    const canvas = document.getElementById('mapCanvas');
+    const ctx = canvas.getContext('2d');
+
+    // Offscreen buffer for background (same size as canvas: 600 x 600)
+    const offscreen_canvas = document.createElement('canvas');
+    offscreen_canvas.width = canvas.width;
+    offscreen_canvas.height = canvas.height;
+    const offscreen_ctx = offscreen_canvas.getContext('2d');
+
+    // Background image (unchanged URL)
+    const background = new Image();
+    background.src = CONSTANTS.assets.background;
+    background.onload = () => {
+        // Draw once to offscreen, then blit to onscreen
+        offscreen_ctx.drawImage(background, 0, 0, offscreen_canvas.width, offscreen_canvas.height);
+        ctx.drawImage(offscreen_canvas, 0, 0);
+    };
+
+    // Socket client
+    const socket = io();
+    socket.emit(CONSTANTS.events.REGISTER, CONSTANTS.client_types.WEB);
+
+    // =========================
+    // Utilities
+    // =========================
+
+    /**
+     * Generate a random hex color string.
+     * @returns {string} Hex color (e.g., #A1B2C3)
+     */
+    function get_random_color() {
+        const letters = '0123456789ABCDEF';
+        let color = '#';
+        for (let i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    }
+
+    /**
+     * Throttle image updates per client by a minimum interval.
+     * @param {string} id - Client id
+     * @param {number} min_interval_ms - Minimum gap between updates
+     * @returns {boolean} True if the update is allowed
+     */
+    function allow_image_update(id, min_interval_ms) {
+        const now = Date.now();
+        if (last_update_time[id] && (now - last_update_time[id] < min_interval_ms)) {
+            return false;
+        }
+        last_update_time[id] = now;
+        return true;
+    }
+
+    // =========================
+    // DOM helpers
+    // =========================
+
+    /**
+     * Ensure a client card exists; create if missing (keeps original layout and sizes).
+     * @param {string} id - Client id
+     * @param {string} color - Accent color
+     * @returns {HTMLDivElement} The card element
+     */
+    function ensure_client_card(id, color) {
+        let card = document.getElementById(`client-${id}`);
+        if (card) return card;
+
+        const clients_container = document.getElementById('clients');
+
+        card = document.createElement('div');
+        card.id = `client-${id}`;
+        card.className = 'client';
+        card.style.borderColor = color;
+
+        const text_container = document.createElement('div');
+        text_container.id = `text-container-${id}`;
+        card.appendChild(text_container);
+
+        const img = document.createElement('img');
+        img.id = `sensorImage-${id}`;
+        img.className = 'sensorImage';
+        img.alt = 'No Picture';
+        card.appendChild(img);
+
+        clients_container.appendChild(card);
+        return card;
+    }
+
+    /**
+     * Render/update the textual info for a client card (position, speed, radar).
+     * All numeric formatting matches the original intent (toFixed(2)).
+     * @param {string} id
+     * @param {*} data
+     */
+    function render_client_text(id, data) {
+        const text_container = document.getElementById(`text-container-${id}`);
+        if (!text_container) return;
+
+        const position_html = data.position
+            ? `<div>Position: (x: ${data.position[0].toFixed(2)}, y: ${data.position[1].toFixed(2)}, z: ${data.position[2].toFixed(2)})</div>`
+            : '';
+
+        const speed_html = data.velocity
+            ? `<div>Speed: (x: ${data.velocity[0].toFixed(2)} m/s, y: ${data.velocity[1].toFixed(2)} m/s, z: ${data.velocity[2].toFixed(2)} m/s)</div>`
+            : '';
+
+        const radar_html = Array.isArray(data.radar)
+            ? `
+                <div>Radar Info:</div>
+                <ul>
+                    ${data.radar.map(detect => `
+                        <li>Velocity: ${detect.velocity.toFixed(2)} m/s, 
+                            Altitude: ${detect.altitude.toFixed(2)}°, 
+                            Azimuth: ${detect.azimuth.toFixed(2)}°, 
+                            Depth: ${detect.depth.toFixed(2)} m</li>
+                    `).join('')}
+                </ul>
+              `
+            : '';
+
+        text_container.innerHTML = `
+            <div class="client-header" style="color: ${data.color};">Client ID: ${id}</div>
+            ${position_html}
+            ${speed_html}
+            ${radar_html}
+        `;
+    }
+
+    // =========================
+    // Rendering (canvas)
+    // =========================
+
+    /**
+     * Draw all vehicles on the canvas.
+     */
+    function draw_vehicles() {
+        // Clear and redraw background (offscreen buffer -> onscreen)
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.drawImage(offscreen_canvas, 0, 0);
+
+        const offsetX = canvas.width / 2;
+        const offsetY = canvas.height / 2;
+
+        for (const [id, clientData] of Object.entries(clients_state)) {
+            const { position, color } = clientData;
+            if (!position) continue;
+
+            const [x, y] = position;
+
+            // Original scaling and shift
+            const canvasX = offsetX + x * CONSTANTS.drawing.scale_x; // original: 2.5
+            const canvasY = offsetY + y * CONSTANTS.drawing.scale_y + CONSTANTS.drawing.y_shift; // original: -75
+
+            // Vehicle marker (original radius: 5)
+            ctx.beginPath();
+            ctx.arc(canvasX, canvasY, CONSTANTS.drawing.vehicle_radius, 0, 2 * Math.PI);
+            ctx.fillStyle = color;
+            ctx.fill();
+            ctx.stroke();
+
+            // Label (original offsets: +6, -6)
+            ctx.fillStyle = 'black';
+            ctx.fillText(`ID: ${id}`, canvasX + CONSTANTS.drawing.offset_label_dx, canvasY + CONSTANTS.drawing.offset_label_dy);
+        }
+    }
+
+    /**
+     * Render/update all client cards: create if missing and fill with current data.
+     */
+    function update_clients_display() {
+        for (const [id, clientData] of Object.entries(clients_state)) {
+            ensure_client_card(id, clientData.color);
+            render_client_text(id, clientData);
+        }
+    }
+
+    /**
+     * Update the per-client image element with base64 JPEG, respecting the original refresh interval.
+     * @param {string} id - Client id
+     * @param {string} image_b64 - Base64 JPEG string (no "data:" prefix in payload)
+     */
+    function display_image_info(id, image_b64) {
+        if (!allow_image_update(id, CONSTANTS.images.refresh_interval_ms)) return;
+
+        const imgElement = document.getElementById(`sensorImage-${id}`);
+        if (!imgElement) {
+            console.warn(`Image element for client ${id} not found.`);
+            return;
+        }
+        const newSrc = `data:image/jpeg;base64,${image_b64}`; // original encoding
+        if (imgElement.src !== newSrc) {
+            imgElement.src = newSrc;
+        }
+    }
+
+    // =========================
+    // Socket event handlers
+    // =========================
+
+    socket.on(CONSTANTS.events.SENSOR_IMAGE, (data) => {
+        const { id, image } = data || {};
+        if (!id || !image) return;
+
+        if (!clients_state[id]) {
+            clients_state[id] = { radar: [], frame: null, color: get_random_color() };
+        }
+        display_image_info(id, image);
+    });
+
+    socket.on(CONSTANTS.events.RADAR_DATA, (data) => {
+        const { id, frame, radar_info } = data || {};
+        if (!id) return;
+
+        if (!clients_state[id]) {
+            clients_state[id] = { radar: [], frame: null, color: get_random_color() };
+        }
+
+        const N = CONSTANTS.radar.keep_rows; 
+        clients_state[id].radar = Array.isArray(radar_info) ? radar_info.slice(0, N) : clients_state[id].radar;
+        clients_state[id].frame = frame;
+
+        update_clients_display();
+    });
+
+    socket.on(CONSTANTS.events.CARLA_DATA, (data) => {
+        const { id, position, velocity } = data || {};
+        if (!id) return;
+
+        if (!clients_state[id]) {
+            clients_state[id] = { color: get_random_color(), position, velocity, lastPosition: null };
+        } else {
+            clients_state[id].lastPosition = clients_state[id].position;
+            clients_state[id].position = position;
+            clients_state[id].velocity = velocity;
+        }
+
+        update_clients_display();
+        draw_vehicles();
+    });
+
+    socket.on(CONSTANTS.events.CLIENT_DISCONNECTED, (id) => {
+        const clientDiv = document.getElementById(`client-${id}`);
+        if (clientDiv) clientDiv.remove();
+        delete clients_state[id];
+
+        update_clients_display();
+        draw_vehicles();
+    });
+
+    </script>
+</body>
+</html>

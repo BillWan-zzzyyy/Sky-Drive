@@ -1,15 +1,15 @@
 # Tutorial to establish the multi-agent connection based on CARLA and Socket.IO
 
-## 💡 Highlights <a name="highlight"></a>
-
-- 🚀 **Sky-Drive** has the potential to advance autonomous driving research beyond traditional metrics of safety and efficiency **toward more socially aware and human-aligned behavior.**
-- 🤔 This paper addresses the emerging need to explore complex interactions in **mixed traffic environments where various intelligent agents** must align with human preferences and societal norms.
-
-
 > [!IMPORTANT]
 > We are currently in the process of organizing our code, and will release the code on GitHub in the near future.
 > 
 > 🫶 Stay up to date at this repository and the [Sky-Lab](https://sky-lab-uw.github.io/) website!
+
+
+## 💡 Highlights <a name="highlight"></a>
+
+- 🚀 **Sky-Drive** has the potential to advance autonomous driving research beyond traditional metrics of safety and efficiency **toward more socially aware and human-aligned behavior.**
+- 🤔 This paper addresses the emerging need to explore complex interactions in **mixed traffic environments where various intelligent agents** must align with human preferences and societal norms.
 
 
 ## 📋 Table of Contents

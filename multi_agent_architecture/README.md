@@ -22,6 +22,6 @@ express -V
 node server_socket.js
 ```
 
-## 3. Run CARLA on the host using the original manual_control.py
+## 3. Run manual_control_with_websocket.py on the CARLA host and client
 
-## 4. Run 
+## 4. Run website.html to get the real-time img and info.

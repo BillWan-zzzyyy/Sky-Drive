@@ -15,6 +15,7 @@ pip install websocket-client
 
 ## 2. run socket server
 ```
-node 
+node server_socket.js
+```
 
 

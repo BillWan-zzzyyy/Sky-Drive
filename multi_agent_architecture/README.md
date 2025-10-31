@@ -4,7 +4,7 @@
 > Software config: CARLA 0.9.13 Ubuntu 20.04
 
 
-## 1. Install socket.io
+## 1. 💽Install socket.io
 ```
 # install socket.io 
 npm init -y
@@ -17,12 +17,12 @@ npm install express
 express -V
 ```
 
-## 2. Run socket server
+## 2. 🚀Run socket server
 ```
 node server_socket.js
 ```
 
-## 3. Run ```manual_control_with_websocket.py``` on the CARLA host and client
+## 3.🚀 Run ```manual_control_with_websocket.py``` on the CARLA host and client
 ```
 # host
 cd ~/carla
@@ -34,9 +34,9 @@ python3 manual_control_with_websocket.py --host <HOST_IP>(default: 192.168.1.1) 
 
 ```
 
-## 4. Run ```website.html``` to get the real-time img and info.
+## 4.🚀 Run ```website.html``` to get the real-time img and info.
 ![website](../img/website_multiagent.png)
 
 
-## 5. Other resources
+## 5.📚 Other resources
 You can use ```Town10_BEV_Capture.py``` to capture the BEV image of any map in CARLA

@@ -17,7 +17,7 @@ npm install express
 express -V
 ```
 
-## 2. 🚀Run socket server
+## 2. 🚀Run socket server  ```server_socket.js```
 ```
 node server_socket.js
 ```

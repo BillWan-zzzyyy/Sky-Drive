@@ -1,4 +1,4 @@
-# Tutorial to establish the multi-agent connection based on CARLA and Socket.IO
+# 🔥Tutorial to establish the multi-agent connection based on CARLA and Socket.IO
 
 > [!IMPORTANT]
 > Software config: CARLA 0.9.13 Ubuntu 20.04

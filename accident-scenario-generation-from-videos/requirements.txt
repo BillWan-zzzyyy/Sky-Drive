@@ -1,0 +1,22 @@
+# Anaconda 23.7.4
+# TO USE:
+# 1. conda activate skydrive
+# 2. pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
+# 3. pip install -r requirements.txt
+
+### packages ###
+carla
+keyboard
+pyyaml
+pygame
+open3d==0.10.0
+scipy
+matplotlib
+opencv-python==4.10.0.84
+networkx
+pandas
+tqdm
+stable-baselines3[extra]
+gym
+gymnasium
+shimmy

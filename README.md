@@ -74,7 +74,8 @@
 ## 🛠️ Getting Started <a name="setup"></a>
 
 
-## 🚶‍♀️🚶‍♂️🚶 Multi-agent Architecture <a name="Multi-agent"></a>
+## 🚶‍♀️ Multi-agent Architecture <a name="Multi-agent"></a>
+
 
 ### 📺 ONE MINUTE SUMMARY
 

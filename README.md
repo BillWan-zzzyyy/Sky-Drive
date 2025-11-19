@@ -77,8 +77,7 @@
 ## 🚶‍♀️ Multi-agent Architecture <a name="Multi-agent"></a>
 
 
-### 📺 ONE MINUTE SUMMARY
-
+https://github.com/user-attachments/assets/79084dc5-76f9-4368-ac59-4dc7f717ace6
 
 
 ## 📊 Evaluation <a name="evaluation"></a>

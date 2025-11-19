@@ -167,5 +167,6 @@ Our team at Sky-Lab is actively working on research projects in the field of AI 
 - **[Physics-enhanced RLHF](https://zilin-huang.github.io/PE-RLHF-website/)**
 - **[LLM for for Interactive and Traffic Scenario Generation](https://github.com/zihaosheng/Talk2Traffic)**
 - **[Traffic expertise meets residual RL](https://github.com/zihaosheng/traffic-expertise-RL)**
+- **[LLMs for Traffic Accident Understanding](https://arxiv.org/abs/2508.06763)**
   
 <p align="right">(<a href="#top">back to top</a>)</p>

@@ -50,7 +50,7 @@
 <img aligh="center" src="img/fig1.svg" width="1100;" alt="skydrive"/>
 
 ## 📢 News
-- **`[2025/11/17]`** 🚀🚀 We released the code of multi-agent architecture and accident scenario generation.
+- **`[2025/11/17]`** 🚀🚀 We released the code of **multi-agent architecture** and **accident scenario generation**.
 - **`[2025/08/18]`** 🎉🎉 **Sky-Drive** has been accepted for publication in *Journal of Intelligent and Connected Vehicles* (JICV)!  We will release the website and related resources soon. Stay tuned!
 - **`[2025/04/25]`** 🔥🔥 We released the first vision of **Sky-Drive** paper on arXiv!
 

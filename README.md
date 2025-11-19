@@ -65,7 +65,7 @@
 
 1. [Highlights](#highlight)
 2. [Getting Started](#setup)
-3. [Training](#training)
+3. [Multi-agent Architecture](#Multi-agent)
 4. [Evaluation](#evaluation)
 5. [Contributors](#contributors)
 6. [Citation](#citation)
@@ -74,7 +74,9 @@
 ## 🛠️ Getting Started <a name="setup"></a>
 
 
-## 🚋 Training <a name="training"></a>
+## 🚶‍♀️🚶‍♂️🚶 Multi-agent Architecture <a name="Multi-agent"></a>
+
+### 📺 ONE MINUTE SUMMARY
 
 
 

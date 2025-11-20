@@ -1,0 +1,115 @@
+# =======================================================
+# OPERATING SYSTEMS
+# =======================================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# =======================================================
+# EDITORS & IDEs
+# =======================================================
+# VS Code / Cursor
+.vscode/
+*.code-workspace
+
+# JetBrains (PyCharm, CLion, IntelliJ)
+.idea/
+*.iml
+*.iws
+
+# =======================================================
+# PYTHON
+# =======================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+env/
+venv/
+.env
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# =======================================================
+# C++ / COMPILED FILES
+# =======================================================
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.so
+*.dylib
+*.a
+
+# =======================================================
+# ROS / ROS 2 (Robotics)
+# =======================================================
+build/
+devel/
+install/
+log/
+.catkin_workspace
+.catkin_tools/
+
+# ROS Bag files (Large recordings)
+*.bag
+*.mcap
+
+# =======================================================
+# LATEX / RESEARCH
+# =======================================================
+# Generated files from LaTeX compilation
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.fls
+*.fdb_latexmk
+
+# PDF files (Uncomment below if you want to ignore PDFs)
+# *.pdf
+
+# =======================================================
+# MEDIA & LARGE DATASETS
+# =======================================================
+# Prevent large media from bloating the repo
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.png
+*.jpg
+*.jpeg
+
+# Datasets and Model Weights
+dataset/
+datasets/
+data/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# =======================================================
+# MISC
+# =======================================================
+tmp/
+temp/

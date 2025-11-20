@@ -27,25 +27,25 @@
 
 > **Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation**
 >
-> [Zilin Huang](https://scholar.google.com/citations?user=RgO7ppoAAAAJ&hl=en)`<sup>`1,\*`</sup>`,
-> [Zihao Sheng](https://scholar.google.com/citations?user=3T-SILsAAAAJ&hl=en)`<sup>`1,\*`</sup>`,
-> [Zhengyang Wan](https://scholar.google.com.hk/citations?user=6m8LnLUAAAAJ&hl=en)`<sup>`1,*`</sup>`,
-> [Yansong Qu](https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&user=hIt7KnUAAAAJ)`<sup>`2`</sup>`,
-> [Yuhao Luo](https://scholar.google.com/citations?user=CNdSjWAAAAAJ&hl=en)`<sup>`1`</sup>`,
-> [Boyue Wang](https://scholar.google.com/citations?user=CR7HWjcAAAAJ&hl=en)`<sup>`1`</sup>`,
-> [Pei Li](https://scholar.google.com/citations?user=0QzhzL0AAAAJ&hl=en)`<sup>`1`</sup>`,
-> [Yen-Jung Chen](https://scholar.google.com/citations?user=RZiRdWYAAAAJ&hl=en)`<sup>`2`</sup>`,
-> [Jiancong Chen](https://scholar.google.com/citations?user=qa_mJTUAAAAJ&hl=en)`<sup>`2`</sup>`,
-> [Keke Long](https://scholar.google.com/citations?user=zcTxZZ8AAAAJ&hl=en)`<sup>`1`</sup>`,
-> [Jiayi Meng](https://scholar.google.com/citations?user=IlZs8_oAAAAJ&hl=en)`<sup>`3`</sup>`,
-> [Yue Leng](https://scholar.google.com/citations?user=kEpj_AsAAAAJ&hl=en)`<sup>`4`</sup>`,
-> [Sikai Chen](https://scholar.google.com/citations?user=DPN2wc4AAAAJ&hl=en)`<sup>`1,✉`</sup><br>`
+> [Zilin Huang](https://scholar.google.com/citations?user=RgO7ppoAAAAJ&hl=en)<sup>1,\*</sup>,
+> [Zihao Sheng](https://scholar.google.com/citations?user=3T-SILsAAAAJ&hl=en)<sup>1,\*</sup>,
+> [Zhengyang Wan](https://scholar.google.com.hk/citations?user=6m8LnLUAAAAJ&hl=en)<sup>1,*</sup>,
+> [Yansong Qu](https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&user=hIt7KnUAAAAJ)<sup>2</sup>,
+> [Yuhao Luo](https://scholar.google.com/citations?user=CNdSjWAAAAAJ&hl=en)<sup>1</sup>,
+> [Boyue Wang](https://scholar.google.com/citations?user=CR7HWjcAAAAJ&hl=en)<sup>1</sup>,
+> [Pei Li](https://scholar.google.com/citations?user=0QzhzL0AAAAJ&hl=en)<sup>1</sup>,
+> [Yen-Jung Chen](https://scholar.google.com/citations?user=RZiRdWYAAAAJ&hl=en)<sup>2</sup>,
+> [Jiancong Chen](https://scholar.google.com/citations?user=qa_mJTUAAAAJ&hl=en)<sup>2</sup>,
+> [Keke Long](https://scholar.google.com/citations?user=zcTxZZ8AAAAJ&hl=en)<sup>1</sup>,
+> [Jiayi Meng](https://scholar.google.com/citations?user=IlZs8_oAAAAJ&hl=en)<sup>3</sup>,
+> [Yue Leng](https://scholar.google.com/citations?user=kEpj_AsAAAAJ&hl=en)<sup>4</sup>,
+> [Sikai Chen](https://scholar.google.com/citations?user=DPN2wc4AAAAJ&hl=en)<sup>1,✉</sup><br>
 >
-> `<sup>`1`</sup>`University of Wisconsin-Madison, `<sup>`2`</sup>`Purdue University, `<sup>`3`</sup>`The University of Texas at Arlington, `<sup>`4`</sup>`Google
+> <sup>1</sup>University of Wisconsin-Madison, <sup>2</sup>Purdue University, <sup>3</sup>The University of Texas at Arlington, <sup>4</sup>Google
 >
-> `<sup>`\*`</sup>`Equally Contributing First Authors,
-> `<sup>`✉`</sup>`Corresponding Author
-> `<br/>`
+> <sup>*</sup>Equally Contributing First Authors,
+> <sup>✉</sup>Corresponding Author
+> <br/>
 
 <img aligh="center" src="img/fig1.svg" width="1100;" alt="skydrive"/>
 
@@ -67,13 +67,17 @@ https://github.com/user-attachments/assets/5f95beb4-b2a2-4d0f-95d3-079348076201
 
 ## 📋 Table of Contents
 
-1. [Highlights](#highlight)
-2. [Getting Started](#setup)
-3. [Multi-agent Architecture](#Multi-agent)
-4. [Evaluation](#evaluation)
-5. [Contributors](#contributors)
-6. [Citation](#citation)
-7. [Other Resources](#resources)
+- [Sky-Drive](#sky-drive)
+  - [📢 News](#-news)
+  - [💡 Highlights ](#-highlights-)
+  - [🎬 Four Minutes Summary](#-four-minutes-summary)
+  - [📋 Table of Contents](#-table-of-contents)
+  - [🛠️ Getting Started ](#️-getting-started-)
+  - [🚶‍♀️ Multi-agent Architecture ](#️-multi-agent-architecture-)
+  - [📊 Evaluation ](#-evaluation-)
+  - [👥 Contributors ](#-contributors-)
+  - [🎯 Citation ](#-citation-)
+  - [📚 Other Resources ](#-other-resources-)
 
 ## 🛠️ Getting Started <a name="setup"></a>
 
@@ -81,11 +85,11 @@ https://github.com/user-attachments/assets/5f95beb4-b2a2-4d0f-95d3-079348076201
 
 https://github.com/user-attachments/assets/10c0ff95-7f50-4272-87c9-ee69b5820cef
 
-## 📊 Evaluation `<a name="evaluation"></a>`
+## 📊 Evaluation <a name="evaluation"></a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## 👥 Contributors `<a name="contributors"></a>`
+## 👥 Contributors <a name="contributors"></a>
 
 Special thanks to the following contributors who have helped with this project:
 
@@ -144,7 +148,7 @@ Special thanks to the following contributors who have helped with this project:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## 🎯 Citation `<a name="citation"></a>`
+## 🎯 Citation <a name="citation"></a>
 
 If you find **Sky-Drive** useful for your research, you are more than welcome to give us a star 🌟 and citing our paper:
 
@@ -159,7 +163,7 @@ If you find **Sky-Drive** useful for your research, you are more than welcome to
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## 📚 Other Resources `<a name="resources"></a>`
+## 📚 Other Resources <a name="resources"></a>
 
 Our team at Sky-Lab is actively working on research projects in the field of AI and autonomous driving. Here are a few of them you might find interesting:
 

@@ -60,6 +60,11 @@
 - 🚀 **Sky-Drive** has the potential to advance autonomous driving research beyond traditional metrics of safety and efficiency **toward more socially aware and human-aligned behavior.**
 - 🤔 This paper addresses the emerging need to explore complex interactions in **mixed traffic environments where various intelligent agents** must align with human preferences and societal norms.
 
+## 🎬 Four Minutes Summary
+
+
+https://github.com/user-attachments/assets/5f95beb4-b2a2-4d0f-95d3-079348076201
+
 
 ## 📋 Table of Contents
 
@@ -77,7 +82,7 @@
 ## 🚶‍♀️ Multi-agent Architecture <a name="Multi-agent"></a>
 
 
-https://github.com/user-attachments/assets/79084dc5-76f9-4368-ac59-4dc7f717ace6
+https://github.com/user-attachments/assets/10c0ff95-7f50-4272-87c9-ee69b5820cef
 
 
 ## 📊 Evaluation <a name="evaluation"></a>

@@ -51,12 +51,12 @@
 
 ## 📢 News
 
-- **`[2025/11/19]`** 🎬 We uploade the video summary of
+- **`[2025/11/19]`** 🎬 We uploaded the **video summary** of the paper.
 - **`[2025/11/17]`** 🚀🚀 We released the code of**multi-agent architecture** and**accident scenario generation**.
 - **`[2025/08/18]`** 🎉🎉 Sky-Drive has been accepted for publication in***Journal of Intelligent and Connected Vehicles* (JICV)**!  We will release the website and related resources soon. Stay tuned!
 - **`[2025/04/25]`** 🔥🔥 We released the first vision of**Sky-Drive** paper on arXiv!
 
-## 💡 Highlights `<a name="highlight"></a>`
+## 💡 Highlights <a name="highlight"></a>
 
 - **Sky-Drive** extends autonomous driving research beyond conventional safety and efficiency metrics, introducing a comprehensive framework for socially-aware and human-aligned autonomous behavior.
 - This work addresses the critical challenge of modeling and understanding complex multi-agent interactions in mixed traffic environments, where heterogeneous intelligent agents must align with human preferences and societal norms.
@@ -75,9 +75,9 @@ https://github.com/user-attachments/assets/5f95beb4-b2a2-4d0f-95d3-079348076201
 6. [Citation](#citation)
 7. [Other Resources](#resources)
 
-## 🛠️ Getting Started `<a name="setup"></a>`
+## 🛠️ Getting Started <a name="setup"></a>
 
-## 🚶‍♀️ Multi-agent Architecture `<a name="Multi-agent"></a>`
+## 🚶‍♀️ Multi-agent Architecture <a name="Multi-agent"></a>
 
 https://github.com/user-attachments/assets/10c0ff95-7f50-4272-87c9-ee69b5820cef
 

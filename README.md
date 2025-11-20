@@ -2,7 +2,7 @@
 
 > [!IMPORTANT]
 > We are currently in the process of organizing our code, and will release the code on GitHub in the near future.
-> 
+>
 > 🫶 Stay up to date at this repository and the [Sky-Lab](https://sky-lab-uw.github.io/) website!
 
 <div align="center">
@@ -26,45 +26,44 @@
 <br/>
 
 > **Sky-Drive: A Distributed Multi-Agent Simulation Platform for Human-AI Collaborative and Socially-Aware Future Transportation**
-> 
-> [Zilin Huang](https://scholar.google.com/citations?user=RgO7ppoAAAAJ&hl=en)<sup>1,\*</sup>,
-> [Zihao Sheng](https://scholar.google.com/citations?user=3T-SILsAAAAJ&hl=en)<sup>1,\*</sup>,
-> [Zhengyang Wan](https://scholar.google.com.hk/citations?user=6m8LnLUAAAAJ&hl=en)<sup>1,*</sup>,
-> [Yansong Qu](https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&user=hIt7KnUAAAAJ)<sup>2</sup>,
-> [Yuhao Luo](https://scholar.google.com/citations?user=CNdSjWAAAAAJ&hl=en)<sup>1</sup>,
-> [Boyue Wang](https://scholar.google.com/citations?user=CR7HWjcAAAAJ&hl=en)<sup>1</sup>,
-> [Pei Li](https://scholar.google.com/citations?user=0QzhzL0AAAAJ&hl=en)<sup>1</sup>,
-> [Yen-Jung Chen](https://scholar.google.com/citations?user=RZiRdWYAAAAJ&hl=en)<sup>2</sup>,
-> [Jiancong Chen](https://scholar.google.com/citations?user=qa_mJTUAAAAJ&hl=en)<sup>2</sup>,
-> [Keke Long](https://scholar.google.com/citations?user=zcTxZZ8AAAAJ&hl=en)<sup>1</sup>,
-> [Jiayi Meng](https://scholar.google.com/citations?user=IlZs8_oAAAAJ&hl=en)<sup>3</sup>,
-> [Yue Leng](https://scholar.google.com/citations?user=kEpj_AsAAAAJ&hl=en)<sup>4</sup>,
-> [Sikai Chen](https://scholar.google.com/citations?user=DPN2wc4AAAAJ&hl=en)<sup>1,✉</sup><br>
 >
-> <sup>1</sup>University of Wisconsin-Madison, <sup>2</sup>Purdue University, <sup>3</sup>The University of Texas at Arlington, <sup>4</sup>Google
+> [Zilin Huang](https://scholar.google.com/citations?user=RgO7ppoAAAAJ&hl=en)`<sup>`1,\*`</sup>`,
+> [Zihao Sheng](https://scholar.google.com/citations?user=3T-SILsAAAAJ&hl=en)`<sup>`1,\*`</sup>`,
+> [Zhengyang Wan](https://scholar.google.com.hk/citations?user=6m8LnLUAAAAJ&hl=en)`<sup>`1,*`</sup>`,
+> [Yansong Qu](https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&user=hIt7KnUAAAAJ)`<sup>`2`</sup>`,
+> [Yuhao Luo](https://scholar.google.com/citations?user=CNdSjWAAAAAJ&hl=en)`<sup>`1`</sup>`,
+> [Boyue Wang](https://scholar.google.com/citations?user=CR7HWjcAAAAJ&hl=en)`<sup>`1`</sup>`,
+> [Pei Li](https://scholar.google.com/citations?user=0QzhzL0AAAAJ&hl=en)`<sup>`1`</sup>`,
+> [Yen-Jung Chen](https://scholar.google.com/citations?user=RZiRdWYAAAAJ&hl=en)`<sup>`2`</sup>`,
+> [Jiancong Chen](https://scholar.google.com/citations?user=qa_mJTUAAAAJ&hl=en)`<sup>`2`</sup>`,
+> [Keke Long](https://scholar.google.com/citations?user=zcTxZZ8AAAAJ&hl=en)`<sup>`1`</sup>`,
+> [Jiayi Meng](https://scholar.google.com/citations?user=IlZs8_oAAAAJ&hl=en)`<sup>`3`</sup>`,
+> [Yue Leng](https://scholar.google.com/citations?user=kEpj_AsAAAAJ&hl=en)`<sup>`4`</sup>`,
+> [Sikai Chen](https://scholar.google.com/citations?user=DPN2wc4AAAAJ&hl=en)`<sup>`1,✉`</sup><br>`
 >
-> <sup>\*</sup>Equally Contributing First Authors,
-> <sup>✉</sup>Corresponding Author
-<br/>
+> `<sup>`1`</sup>`University of Wisconsin-Madison, `<sup>`2`</sup>`Purdue University, `<sup>`3`</sup>`The University of Texas at Arlington, `<sup>`4`</sup>`Google
+>
+> `<sup>`\*`</sup>`Equally Contributing First Authors,
+> `<sup>`✉`</sup>`Corresponding Author
+> `<br/>`
 
 <img aligh="center" src="img/fig1.svg" width="1100;" alt="skydrive"/>
 
 ## 📢 News
-- **`[2025/11/17]`** 🚀🚀 We released the code of **multi-agent architecture** and **accident scenario generation**.
-- **`[2025/08/18]`** 🎉🎉 Sky-Drive has been accepted for publication in ***Journal of Intelligent and Connected Vehicles* (JICV)**!  We will release the website and related resources soon. Stay tuned!
-- **`[2025/04/25]`** 🔥🔥 We released the first vision of **Sky-Drive** paper on arXiv!
 
+- **`[2025/11/19]`** 🎬 We uploade the video summary of
+- **`[2025/11/17]`** 🚀🚀 We released the code of**multi-agent architecture** and**accident scenario generation**.
+- **`[2025/08/18]`** 🎉🎉 Sky-Drive has been accepted for publication in***Journal of Intelligent and Connected Vehicles* (JICV)**!  We will release the website and related resources soon. Stay tuned!
+- **`[2025/04/25]`** 🔥🔥 We released the first vision of**Sky-Drive** paper on arXiv!
 
-## 💡 Highlights <a name="highlight"></a>
+## 💡 Highlights `<a name="highlight"></a>`
 
-- 🚀 **Sky-Drive** has the potential to advance autonomous driving research beyond traditional metrics of safety and efficiency **toward more socially aware and human-aligned behavior.**
-- 🤔 This paper addresses the emerging need to explore complex interactions in **mixed traffic environments where various intelligent agents** must align with human preferences and societal norms.
+- **Sky-Drive** extends autonomous driving research beyond conventional safety and efficiency metrics, introducing a comprehensive framework for socially-aware and human-aligned autonomous behavior.
+- This work addresses the critical challenge of modeling and understanding complex multi-agent interactions in mixed traffic environments, where heterogeneous intelligent agents must align with human preferences and societal norms.
 
 ## 🎬 Four Minutes Summary
 
-
 https://github.com/user-attachments/assets/5f95beb4-b2a2-4d0f-95d3-079348076201
-
 
 ## 📋 Table of Contents
 
@@ -76,26 +75,22 @@ https://github.com/user-attachments/assets/5f95beb4-b2a2-4d0f-95d3-079348076201
 6. [Citation](#citation)
 7. [Other Resources](#resources)
 
-## 🛠️ Getting Started <a name="setup"></a>
+## 🛠️ Getting Started `<a name="setup"></a>`
 
-
-## 🚶‍♀️ Multi-agent Architecture <a name="Multi-agent"></a>
-
+## 🚶‍♀️ Multi-agent Architecture `<a name="Multi-agent"></a>`
 
 https://github.com/user-attachments/assets/10c0ff95-7f50-4272-87c9-ee69b5820cef
 
-
-## 📊 Evaluation <a name="evaluation"></a>
-
-
+## 📊 Evaluation `<a name="evaluation"></a>`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## 👥 Contributors <a name="contributors"></a>
+## 👥 Contributors `<a name="contributors"></a>`
 
 Special thanks to the following contributors who have helped with this project:
 
 <!-- readme: contributors -start -->
+
 <table>
 	<tbody>
 		<tr>
@@ -149,7 +144,7 @@ Special thanks to the following contributors who have helped with this project:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## 🎯 Citation <a name="citation"></a>
+## 🎯 Citation `<a name="citation"></a>`
 
 If you find **Sky-Drive** useful for your research, you are more than welcome to give us a star 🌟 and citing our paper:
 
@@ -164,8 +159,7 @@ If you find **Sky-Drive** useful for your research, you are more than welcome to
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-## 📚 Other Resources <a name="resources"></a>
+## 📚 Other Resources `<a name="resources"></a>`
 
 Our team at Sky-Lab is actively working on research projects in the field of AI and autonomous driving. Here are a few of them you might find interesting:
 
@@ -175,5 +169,5 @@ Our team at Sky-Lab is actively working on research projects in the field of AI 
 - **[LLM for for Interactive and Traffic Scenario Generation](https://github.com/zihaosheng/Talk2Traffic)**
 - **[Traffic expertise meets residual RL](https://github.com/zihaosheng/traffic-expertise-RL)**
 - **[LLMs for Traffic Accident Understanding](https://arxiv.org/abs/2508.06763)**
-  
+
 <p align="right">(<a href="#top">back to top</a>)</p>

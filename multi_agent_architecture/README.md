@@ -42,7 +42,7 @@ python3 manual_control_with_websocket.py --host <HOST_IP>(default: 192.168.1.1) 
 
 | Multi-agent Architecture | Vehicle-VRU Interaction using Multi-agent Architecture|
 | :---: | :---: |
-| https://github.com/user-attachments/assets/a0a0c98c-8c14-421c-ba32-36fcae86e27a | https://github.com/user-attachments/assets/6dda29f7-b14b-48ea-8945-f158833291f3 |
+|https://github.com/user-attachments/assets/a0a0c98c-8c14-421c-ba32-36fcae86e27a|https://github.com/user-attachments/assets/6dda29f7-b14b-48ea-8945-f158833291f3|
 
 
 ## 📚 Other resources

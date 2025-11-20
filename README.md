@@ -47,7 +47,9 @@
 > <sup>✉</sup>Corresponding Author
 > <br/>
 
-<img aligh="center" src="img/fig1.svg" width="1100;" alt="skydrive"/>
+<img align="center" src="img/fig1.svg" width="1100" alt="skydrive"/>
+
+<p align="center" style="font-size:16px; font-weight:normal; margin-top:8px;">Overview of Sky-Drive’s key components and functionalities.</p>
 
 ## 📢 News
 

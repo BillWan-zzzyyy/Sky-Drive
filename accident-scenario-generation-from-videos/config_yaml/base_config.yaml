@@ -1,0 +1,17 @@
+base_config: /home/ai/qys/projects/videoscg/config_yaml/base_config.yaml
+output_path: /home/ai/qys/projects/videoscg/output
+scenario:
+  dynamic_weather: false
+  ego_veh_autopilot: true
+  max_sim_time: 50
+  set_random: false
+  spawn_number_cavs: 2
+  spawn_number_others: 100
+  weather_speed: 1
+sensor_config: /home/ai/qys/projects/videoscg/config_yaml/sensor_config.yaml
+world:
+  fixed_delta_seconds: 0.05
+  map: Town10
+  no_rendering_mode: false
+  quality_level: Low
+  synchronous_mode: true

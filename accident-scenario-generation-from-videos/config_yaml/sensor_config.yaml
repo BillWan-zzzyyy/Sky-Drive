@@ -1,0 +1,32 @@
+bbx: false
+channels: 32
+data_dump: true
+fov: 105
+points_per_second: 90000
+range: 20
+resolution:
+- 256
+- 256
+rotation_frequency: 40
+save_dir: /home/ai/qys/projects/videoscg_shorten/output
+sensor_names:
+- front_rgb_camera
+#- left_rgb_camera
+#- back_rgb_camera
+#- right_rgb_camera
+#- collision_detector
+#- lane_invasion_detector
+#- obstacle_detector
+#- gnss
+#- imu
+#- front_depth_camera
+#- left_depth_camera
+#- back_depth_camera
+#- right_depth_camera
+#- front_semantic_camera
+#- left_semantic_camera
+#- back_semantic_camera
+#- right_semantic_camera
+- ray_lidar
+- semantic_ray_lidar
+- bev_semantic_camera

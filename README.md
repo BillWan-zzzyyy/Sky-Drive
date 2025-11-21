@@ -61,8 +61,17 @@
 
 ## 💡 Highlights <a name="highlight"></a>
 
-- **Sky-Drive** extends autonomous driving research beyond conventional safety and efficiency metrics, introducing a comprehensive framework for socially-aware and human-aligned autonomous behavior.
-- This work addresses the critical challenge of modeling and understanding complex multi-agent interactions in mixed traffic environments, where heterogeneous intelligent agents must align with human preferences and societal norms.
+- **Distributed Multi-Agent Architecture**  
+  Features a scalable, decentralized framework that enables synchronized real-time co-simulation across multiple remote terminals, supporting complex interaction scenarios between diverse agents.
+
+- **Multi-Modal Human-in-the-Loop (HiL)**  
+  Integrates heterogeneous interfaces—including VR headsets, steering cockpits, and omnidirectional treadmills—to capture high-fidelity behavioral data from pedestrians, cyclists, and human drivers in immersive environments.
+
+- **Socially-Aware AI Development**  
+  Provides a specialized testbed for training and evaluating human-centered autonomous driving algorithms, focusing on safe, efficient, and socially compliant interactions with Vulnerable Road Users (VRUs).
+
+- **Unified Research Pipeline**  
+  Offers an end-to-end open-source solution that seamlessly bridges the gaps between interactive scenario generation, massive data collection, algorithm training, and hardware-in-the-loop deployment.
 
 ## 🎬 Four Minutes Summary <a name="four-minutes-summary"></a>
 

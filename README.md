@@ -53,7 +53,7 @@
 
 ## 📢 News <a name="news"></a>
 
-- **`[2025/11/20]`** 🔥🔥 We updated the code for the **remaining sections.**
+- **`[2025/11/20]`** 🤗🤗 We updated the code for the **remaining sections.**
 - **`[2025/11/19]`** 🎬 We uploaded the **video summary** of the paper.
 - **`[2025/11/17]`** 🚀🚀 We released the code of **multi-agent architecture** and **accident data reply**.
 - **`[2025/08/18]`** 🎉🎉 Sky-Drive has been accepted for publication in ***Journal of Intelligent and Connected Vehicles* (JICV)**!  We will release the website and related resources soon. Stay tuned!

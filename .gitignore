@@ -95,9 +95,6 @@ log/
 *.mov
 *.avi
 *.mkv
-*.png
-*.jpg
-*.jpeg
 
 # Datasets and Model Weights
 dataset/

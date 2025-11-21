@@ -116,9 +116,24 @@ To get started with Sky-Drive:
 > ⚠️ *Note: While most features may work with other CARLA versions, for **VR and Multi-agent support**, CARLA 0.9.13 is strongly recommended!*
 
 
-## 🚶‍♀️ Multi-agent Architecture <a name="Multi-agent"></a>
+## 1️⃣ VR-based AV-HRU Interaction <a name="VR"></a>
+The `VR-based AV-HRU Interaction` is implemented based on a multi-agent architecture. For related code and implementation details, please refer to the `multi_agent_architecture` folder in this repository.
 
-https://github.com/user-attachments/assets/10c0ff95-7f50-4272-87c9-ee69b5820cef
+<p align="center">
+  <img src="assets/experimental_site_2.png" alt="VR-based AV-HRU Interaction" width= "45%"/>
+  <img src="assets/overviewofvr.png" alt="VR-based AV-HRU Interaction" width="50%"/>
+  <br>
+  <b>VR-based AV-HRU Interaction</b>
+</p>
+</p>
+
+
+<p align="center">
+  <img src="assets/Fig3.svg" alt="Multi-agent Architecture" width="80%"/>
+  <br>
+  <b>Illustration of Multi-agent Architecture</b>
+</p>
+
 
 ## 📊 Evaluation <a name="evaluation"></a>
 

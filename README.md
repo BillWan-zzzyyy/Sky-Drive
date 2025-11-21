@@ -311,6 +311,13 @@ git clone https://github.com/zihaosheng/CurricuVLM.git
 
 ## 5️⃣ Accident Data Replay  <a name="Accident"></a>
 
+The `Accident Data Replay` is implemented based on [CenterTrack](https://link.springer.com/chapter/10.1007/978-3-030-58548-8_28). For related code and implementation details, please refer to the `accident-scenario-generation-from-videos` folder in this repository.  
+
+<p align="center">
+  <img src="assets/Fig6.svg" alt="Accident Data Replay Framework" width="80%"/>
+  <br>
+  Accident Data Replay Framework for Systematic Traffic Incident Analysis
+</p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

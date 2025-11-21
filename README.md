@@ -147,9 +147,6 @@ git clone https://github.com/zilin-huang/HAIM-DRL.git
 ```
 
 
-
-
-
 <table>
   <caption><b>The performance of PPO, HACO, and HAIM-DRL methods.</b></caption>
   <thead>
@@ -203,6 +200,16 @@ git clone https://github.com/zilin-huang/HAIM-DRL.git
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## 3️⃣ Vision Language Model-Enabled Reinforcement Learning <a name="VLM"></a>
+
+**This section is based on our previous paper: "VLM-RL: A unified vision language models and reinforcement learning framework for safe autonomous driving".**
+
+For source code and implementation details of VLM-RL, please see: [VLM-RL](https://github.com/zihaosheng/VLM-RL).
+
+You can clone the repository with:
+```bash
+git clone https://github.com/zihaosheng/VLM-RL.git
+```
+
 
 
 <table>
@@ -280,6 +287,24 @@ git clone https://github.com/zilin-huang/HAIM-DRL.git
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## 4️⃣ Personalized Safety-Critical Curriculum Learning <a name="Curri"></a>
+
+**This section is based on our previous paper: "CurricuVLM: Towards Safe Autonomous Driving via Personalized Safety-Critical Curriculum Learning with Vision-Language Models".**
+
+For source code and implementation details of VLM-RL, please see: [CurricuVLM](hhttps://github.com/zihaosheng/CurricuVLM).
+
+You can clone the repository with:
+```bash
+git clone https://github.com/zihaosheng/CurricuVLM.git
+```
+
+<p align="center">
+  <img src="assets/Fig5.svg" alt="Fig5.svg" width="80%"/>
+  <br>
+</p>
+<p align="center">
+  CurricuVLM not only enhances policy robustness under long-tail safety-critical scenarios, but also integrates seamlessly into SkyDrive’s human-AI collaboration mechanism.
+</p>
+
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>

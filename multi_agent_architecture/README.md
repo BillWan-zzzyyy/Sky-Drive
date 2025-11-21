@@ -35,7 +35,7 @@ python3 manual_control_with_websocket.py --host <HOST_IP>(default: 192.168.1.1) 
 ```
 
 ## 4.🚀 Run ```website.html``` to get the real-time img and info.
-![website](../img/website_multiagent.png)
+![website](../assets/website_multiagent.png)
 
 
 ## 🔥Example of Multi-agent Architecture

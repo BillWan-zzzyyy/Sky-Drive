@@ -47,7 +47,7 @@
 > <sup>✉</sup>Corresponding Author
 > <br/>
 
-<img align="center" src="img/fig1.svg" width="1100" alt="skydrive"/>
+<img align="center" src="assets/fig1.svg" width="1100" alt="skydrive"/>
 
 <p align="center" style="font-size:16px; font-weight:normal; margin-top:8px;">Overview of Sky-Drive’s key components and functionalities.</p>
 
@@ -56,7 +56,7 @@
 - **`[2025/11/19]`** 🎬 We uploaded the **video summary** of the paper.
 - **`[2025/11/17]`** 🚀🚀 We released the code of **multi-agent architecture** and **accident scenario generation**.
 - **`[2025/08/18]`** 🎉🎉 Sky-Drive has been accepted for publication in ***Journal of Intelligent and Connected Vehicles* (JICV)**!  We will release the website and related resources soon. Stay tuned!
-- **`[2025/04/25]`** 🔥🔥 We released the first vision of**Sky-Drive** paper on arXiv!
+- **`[2025/04/25]`** 🔥🔥 We released the first vision of **Sky-Drive** paper on arXiv!
 
 ## 💡 Highlights <a name="highlight"></a>
 

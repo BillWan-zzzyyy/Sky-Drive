@@ -51,10 +51,11 @@
 
 <p align="center" style="font-size:16px; font-weight:normal; margin-top:8px;">Overview of Sky-Drive’s key components and functionalities.</p>
 
-## 📢 News
+## 📢 News <a name="news"></a>
 
+- **`[2025/11/20]`** 🔥🔥 We updated the code for the **remaining sections.**
 - **`[2025/11/19]`** 🎬 We uploaded the **video summary** of the paper.
-- **`[2025/11/17]`** 🚀🚀 We released the code of **multi-agent architecture** and **accident scenario generation**.
+- **`[2025/11/17]`** 🚀🚀 We released the code of **multi-agent architecture** and **accident data reply**.
 - **`[2025/08/18]`** 🎉🎉 Sky-Drive has been accepted for publication in ***Journal of Intelligent and Connected Vehicles* (JICV)**!  We will release the website and related resources soon. Stay tuned!
 - **`[2025/04/25]`** 🔥🔥 We released the first vision of **Sky-Drive** paper on arXiv!
 
@@ -63,25 +64,25 @@
 - **Sky-Drive** extends autonomous driving research beyond conventional safety and efficiency metrics, introducing a comprehensive framework for socially-aware and human-aligned autonomous behavior.
 - This work addresses the critical challenge of modeling and understanding complex multi-agent interactions in mixed traffic environments, where heterogeneous intelligent agents must align with human preferences and societal norms.
 
-## 🎬 Four Minutes Summary
+## 🎬 Four Minutes Summary <a name="four-minutes-summary"></a>
 
 https://github.com/user-attachments/assets/5f95beb4-b2a2-4d0f-95d3-079348076201
 
 ## 📋 Table of Contents
 
 - [Sky-Drive](#sky-drive)
-  - [📢 News](#-news)
-  - [💡 Highlights ](#-highlights-)
-  - [🎬 Four Minutes Summary](#-four-minutes-summary)
-  - [🛠️ Getting Started ](#️-getting-started-)
-  - [1️⃣ VR-based AV-HRU Interaction ](#️-VR-)
-  - [2️⃣ HAIM-based Deep Reinforcement Learning ](#-HAIM-)
-  - [3️⃣ Vision Language Model-Enabled Reinforcement Learning ](#-VLM-)
-  - [4️⃣ Personalized Safety-Critical Curriculum Learning ](#-Curri-)
-  - [5️⃣ Accident Data Replay ](#-Accident-)
-  - [👥 Contributors ](#-contributors-)
-  - [🎯 Citation ](#-citation-)
-  - [📚 Other Resources ](#-other-resources-)
+  - [📢 News](#news)
+  - [💡 Highlights](#highlight)
+  - [🎬 Four Minutes Summary](#four-minutes-summary)
+  - [🛠️ Getting Started](#setup)
+  - [1️⃣ VR-based AV-HRU Interaction](#vr)
+  - [2️⃣ HAIM-based Deep Reinforcement Learning](#haim)
+  - [3️⃣ Vision Language Model-Enabled Reinforcement Learning](#vlm)
+  - [4️⃣ Personalized Safety-Critical Curriculum Learning](#curri)
+  - [5️⃣ Accident Data Replay](#accident)
+  - [👥 Contributors](#contributors)
+  - [🎯 Citation](#citation)
+  - [📚 Other Resources](#resources)
 
 ## 🛠️ Getting Started <a name="setup"></a>
 To get started with Sky-Drive:
@@ -116,7 +117,7 @@ To get started with Sky-Drive:
 > ⚠️ *Note: While most features may work with other CARLA versions, for **VR and Multi-agent support**, CARLA 0.9.13 is strongly recommended!*
 
 
-## 1️⃣ VR-based AV-HRU Interaction <a name="VR"></a>
+## 1️⃣ VR-based AV-HRU Interaction <a name="vr"></a>
 The `VR-based AV-HRU Interaction` is implemented based on a multi-agent architecture. For related code and implementation details, please refer to the `multi_agent_architecture` folder in this repository.
 
 <p align="center">
@@ -136,7 +137,7 @@ The `VR-based AV-HRU Interaction` is implemented based on a multi-agent architec
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-## 2️⃣ HAIM-based Deep Reinforcement Learning <a name="HAIM"></a>
+## 2️⃣ HAIM-based Deep Reinforcement Learning <a name="haim"></a>
 **This section is based on our previous paper: "Human as AI mentor: Enhanced human-in-the-loop reinforcement learning for safe and efficient autonomous driving".**
 
 For source code and implementation details of HAIM-DRL, please see: [HAIM-DRL](https://github.com/zilin-huang/HAIM-DRL).
@@ -199,7 +200,7 @@ git clone https://github.com/zilin-huang/HAIM-DRL.git
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## 3️⃣ Vision Language Model-Enabled Reinforcement Learning <a name="VLM"></a>
+## 3️⃣ Vision Language Model-Enabled Reinforcement Learning <a name="vlm"></a>
 
 **This section is based on our previous paper: "VLM-RL: A unified vision language models and reinforcement learning framework for safe autonomous driving".**
 
@@ -286,7 +287,7 @@ git clone https://github.com/zihaosheng/VLM-RL.git
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## 4️⃣ Personalized Safety-Critical Curriculum Learning <a name="Curri"></a>
+## 4️⃣ Personalized Safety-Critical Curriculum Learning <a name="curri"></a>
 
 **This section is based on our previous paper: "CurricuVLM: Towards Safe Autonomous Driving via Personalized Safety-Critical Curriculum Learning with Vision-Language Models".**
 
@@ -309,7 +310,7 @@ git clone https://github.com/zihaosheng/CurricuVLM.git
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## 5️⃣ Accident Data Replay  <a name="Accident"></a>
+## 5️⃣ Accident Data Replay  <a name="accident"></a>
 
 The `Accident Data Replay` is implemented based on [CenterTrack](https://link.springer.com/chapter/10.1007/978-3-030-58548-8_28). For related code and implementation details, please refer to the `accident-scenario-generation-from-videos` folder in this repository.  
 

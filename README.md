@@ -82,6 +82,37 @@ https://github.com/user-attachments/assets/5f95beb4-b2a2-4d0f-95d3-079348076201
   - [📚 Other Resources ](#-other-resources-)
 
 ## 🛠️ Getting Started <a name="setup"></a>
+To get started with Sky-Drive:
+
+1. **Clone this repository**
+   ```bash
+   git clone https://github.com/BillWan-zzzyyy/Sky-Drive.git
+   cd Sky-Drive
+   ```
+
+2. **Download and install CARLA 0.9.13**
+
+   - Download CARLA 0.9.13 from the [official release page](https://github.com/carla-simulator/carla/releases/tag/0.9.13).
+   
+     Example (for standard Linux version):
+     ```bash
+     wget https://carla-releases.s3.eu-west-3.amazonaws.com/Linux/CARLA_0.9.13.tar.gz
+     tar -xvzf CARLA_0.9.13.tar.gz
+     ```
+
+   - If you want to use VR features, you need to install the ***build version*** of CARLA 0.9.13 with Unreal Engine 4.26.  
+     Please refer to [build instructions](https://carla.readthedocs.io/en/latest/build_carla/) and the [official CARLA documentation](https://carla.readthedocs.io/en/latest/) for setup and further details.
+
+3. **Refer to the relevant sections/folders for feature usage.**
+
+
+> ⚡️ **Recommended Environment:**  
+> - **Ubuntu 20.04**  
+> - **Python 3.7+**  
+> - **CARLA 0.9.13**  
+>
+> ⚠️ *Note: While most features may work with other CARLA versions, for **VR and Multi-agent support**, CARLA 0.9.13 is strongly recommended!*
+
 
 ## 🚶‍♀️ Multi-agent Architecture <a name="Multi-agent"></a>
 

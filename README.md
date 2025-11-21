@@ -73,7 +73,7 @@ https://github.com/user-attachments/assets/5f95beb4-b2a2-4d0f-95d3-079348076201
   - [📢 News](#-news)
   - [💡 Highlights ](#-highlights-)
   - [🎬 Four Minutes Summary](#-four-minutes-summary)
-  - [📋 Table of Contents](#-table-of-contents)
+  - [� Table of Contents](#-table-of-contents)
   - [🛠️ Getting Started ](#️-getting-started-)
   - [🚶‍♀️ Multi-agent Architecture ](#️-multi-agent-architecture-)
   - [📊 Evaluation ](#-evaluation-)

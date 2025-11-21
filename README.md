@@ -123,21 +123,172 @@ The `VR-based AV-HRU Interaction` is implemented based on a multi-agent architec
   <img src="assets/experimental_site_2.png" alt="VR-based AV-HRU Interaction" width= "45%"/>
   <img src="assets/overviewofvr.png" alt="VR-based AV-HRU Interaction" width="50%"/>
   <br>
-  <b>VR-based AV-HRU Interaction</b>
-</p>
+  VR-based AV-HRU Interaction
 </p>
 
 
 <p align="center">
   <img src="assets/Fig3.svg" alt="Multi-agent Architecture" width="80%"/>
   <br>
-  <b>Illustration of Multi-agent Architecture</b>
+  Illustration of Multi-agent Architecture
 </p>
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## 📊 Evaluation <a name="evaluation"></a>
+
+## 2️⃣ HAIM-based Deep Reinforcement Learning <a name="HAIM"></a>
+**This section is based on our previous paper: "Human as AI mentor: Enhanced human-in-the-loop reinforcement learning for safe and efficient autonomous driving".**
+
+For source code and implementation details of HAIM-DRL, please see: [HAIM-DRL](https://github.com/zilin-huang/HAIM-DRL).
+
+You can clone the repository with:
+```bash
+git clone https://github.com/zilin-huang/HAIM-DRL.git
+```
+
+
+
+
+
+<table>
+  <caption><b>The performance of PPO, HACO, and HAIM-DRL methods.</b></caption>
+  <thead>
+    <tr>
+      <th>Method</th>
+      <th>Test Safety Violation&nbsp;<span style="font-weight:normal;">&#8595;</span></th>
+      <th>Test Return&nbsp;<span style="font-weight:normal;">&#8593;</span></th>
+      <th>Test Disturbance Rate&nbsp;<span style="font-weight:normal;">&#8595;</span></th>
+      <th>Test Success Rate&nbsp;<span style="font-weight:normal;">&#8593;</span></th>
+      <th>Train Samples&nbsp;<span style="font-weight:normal;">&#8595;</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PPO</td>
+      <td>80.84</td>
+      <td><b>1591.00</b></td>
+      <td>-</td>
+      <td>0.35</td>
+      <td>500,000</td>
+    </tr>
+    <tr>
+      <td>HACO</td>
+      <td>12.14</td>
+      <td>1578.43</td>
+      <td>0.0137</td>
+      <td>0.35</td>
+      <td>8,000</td>
+    </tr>
+    <tr>
+      <td>HAIM-DRL (ours)</td>
+      <td><b>11.25</b></td>
+      <td>1590.85</td>
+      <td><b>0.0121</b></td>
+      <td><b>0.38</b></td>
+      <td><b>8,000</b></td>
+    </tr>
+  </tbody>
+</table>
+
+<details>
+  <summary><b>Note &amp; Citation</b></summary>
+  <p>
+    <b>Note:</b> The best results are marked in <b>bold</b>. The results are based on data reported in <a href="https://www.sciencedirect.com/science/article/pii/S2772424724000106" target="_blank">Huang et al. (2024)</a>.
+    For detailed definitions of evaluation metrics and descriptions of baseline methods, please refer to the original paper.
+  </p>
+</details>
+
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+## 3️⃣ Vision Language Model-Enabled Reinforcement Learning <a name="VLM"></a>
+
+
+<table>
+  <caption><b>Performance Comparison with Baselines (Mean and standard deviation over 3 seeds)</b></caption>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>Average Speed&nbsp;<span style="font-weight:normal;">&#8593;</span></th>
+      <th>Route Completion&nbsp;<span style="font-weight:normal;">&#8593;</span></th>
+      <th>Traveled Distance&nbsp;<span style="font-weight:normal;">&#8593;</span></th>
+      <th>Collision Rate&nbsp;<span style="font-weight:normal;">&#8595;</span></th>
+      <th>Success Rate&nbsp;<span style="font-weight:normal;">&#8593;</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>VLM-SR</td>
+      <td>0.53 <small>&plusmn; 0.27</small></td>
+      <td>0.02 <small>&plusmn; 0.00</small></td>
+      <td>47.9 <small>&plusmn; 9.2</small></td>
+      <td>0.18 <small>&plusmn; 0.25</small></td>
+      <td>0.0 <small>&plusmn; 0.0</small></td>
+    </tr>
+    <tr>
+      <td>RoboCLIP</td>
+      <td>0.44 <small>&plusmn; 0.05</small></td>
+      <td>0.07 <small>&plusmn; 0.03</small></td>
+      <td>146.3 <small>&plusmn; 62.3</small></td>
+      <td>1.05 <small>&plusmn; 0.58</small></td>
+      <td>0.0 <small>&plusmn; 0.0</small></td>
+    </tr>
+    <tr>
+      <td>VLM-RM</td>
+      <td>0.20 <small>&plusmn; 0.05</small></td>
+      <td>0.02 <small>&plusmn; 0.01</small></td>
+      <td>35.9 <small>&plusmn; 25.8</small></td>
+      <td><b>0.003</b> <small>&plusmn; 0.005</small></td>
+      <td>0.0 <small>&plusmn; 0.0</small></td>
+    </tr>
+    <tr>
+      <td>LORD</td>
+      <td>0.17 <small>&plusmn; 0.08</small></td>
+      <td>0.02 <small>&plusmn; 0.02</small></td>
+      <td>45.1 <small>&plusmn; 57.1</small></td>
+      <td>0.02 <small>&plusmn; 0.02</small></td>
+      <td>0.0 <small>&plusmn; 0.0</small></td>
+    </tr>
+    <tr>
+      <td>LORD-Speed</td>
+      <td>18.9 <small>&plusmn; 0.36</small></td>
+      <td>0.87 <small>&plusmn; 0.08</small></td>
+      <td>1783.4 <small>&plusmn; 172.8</small></td>
+      <td>2.80 <small>&plusmn; 1.16</small></td>
+      <td>0.67 <small>&plusmn; 0.05</small></td>
+    </tr>
+    <tr>
+      <td><b>VLM-RL (ours)</b></td>
+      <td><b>19.3</b> <small>&plusmn; 1.29</small></td>
+      <td><b>0.97</b> <small>&plusmn; 0.03</small></td>
+      <td><b>2028.2</b> <small>&plusmn; 96.6</small></td>
+      <td>0.02 <small>&plusmn; 0.03</small></td>
+      <td><b>0.93</b> <small>&plusmn; 0.04</small></td>
+    </tr>
+  </tbody>
+</table>
+
+<details>
+  <summary><b>Note &amp; Citation</b></summary>
+  <p>
+    <b>Note:</b> The best results are marked in <b>bold</b>. The results are based on data reported in <a href="https://www.sciencedirect.com/science/article/pii/S0968090X25003250?casa_token=7eAicw9fVjQAAAAA:banvISDGXZG0WQ_hh41c9GdUHYDKwhbYtzCj2JTPt3Wq2UG-jTOklEkUjrDSGtw1R8aq82zfo9c" target="_blank">Huang et al. (2025)</a>.
+    For detailed definitions of evaluation metrics and descriptions of baseline methods, please refer to the original paper.
+  </p>
+</details>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## 4️⃣ Personalized Safety-Critical Curriculum Learning <a name="Curri"></a>
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## 5️⃣ Accident Data Replay  <a name="Accident"></a>
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 ## 👥 Contributors <a name="contributors"></a>
 

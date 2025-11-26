@@ -58,7 +58,7 @@
 - **`[2025/11/19]`** 🎬 We uploaded the **video summary** of the paper.
 - **`[2025/11/17]`** 🚀 We released the code of **multi-agent architecture** and **accident data reply**.
 - **`[2025/08/18]`** 🎉🎉 Sky-Drive has been accepted for publication in ***Journal of Intelligent and Connected Vehicles (JICV)***!  We will release the website and related resources soon. Stay tuned!
-- **`[2025/04/25]`** 🔥 We released the first vision of **Sky-Drive** paper on arXiv!
+- **`[2025/04/25]`** 🔥 We released the first version of **Sky-Drive** paper on arXiv!
 
 ## 💡 Highlights <a name="highlight"></a>
 

@@ -4,7 +4,7 @@
 > All code and related videos have been released as of 2025/11/20.
 
 > [!TIP]
-> Discover more about our research at the [Sky-Lab website](https://sky-lab-uw.github.io/).
+> Discover more about our research at [Sky-Lab](https://sky-lab-uw.github.io/) website.
 
 <div align="center">
   <div>

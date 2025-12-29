@@ -21,7 +21,7 @@
       <em>(This paper was accepted by Journal of Intelligent and Connected Vehicles (JICV) in August, 2025)</em>
     </h5>
   </div>
-  <h3 align="center"><a href="https://sky-lab-uw.github.io/Sky-Drive-website/">Website</a> | <a href="https://arxiv.org/abs/2504.18010">JICV</a> | <a href="https://arxiv.org/abs/2504.18010">arXiv</a> </h3>
+  <h3 align="center"><a href="https://sky-lab-uw.github.io/Sky-Drive-website/">Website</a> | <a href="https://www.sciopen.com/article/10.26599/JICV.2026.9210070">JICV</a> | <a href="https://arxiv.org/abs/2504.18010">arXiv</a> </h3>
 </div>
 
 <br/>

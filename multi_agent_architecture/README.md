@@ -25,7 +25,7 @@ node server_socket.js
 ## 3.🚀 Run ```manual_control_with_websocket.py``` on the CARLA host and client
 ```
 # host
-# HOST_IP also needs to be modified in code: https://github.com/BillWan-zzzyyy/Sky-Drive/blob/8a603d17694b3c54b2ecb6336d97569a6dd9513c/multi_agent_architecture/manual_control_with_websocket.py#L187
+# HOST_IP also needs to be modified in ```manual_control_with_websocket.py line 187```
 cd ~/carla
 ./CarlaUE4.sh -carla-rpc-port=2000 -carla-server -carla-rpc-bind=<HOST_IP> (default: 192.168.1.1)
 python3 manual_control_with_websocket.py

@@ -1,0 +1,24 @@
+{
+  "name": "skydrive-multi-agent-server",
+  "version": "1.0.0",
+  "description": "Socket.IO server for Sky-Drive multi-agent communication",
+  "main": "server_socket.js",
+  "scripts": {
+    "start": "node server_socket.js"
+  },
+  "keywords": [
+    "carla",
+    "socket.io",
+    "multi-agent",
+    "websocket"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

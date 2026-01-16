@@ -25,6 +25,7 @@ express -V
 ## 2. 🚀Run socket server  ``server_socket.js``
 
 ```
+# First, you need to run socket server before launching the CARLA.
 node server_socket.js
 ```
 
@@ -33,17 +34,24 @@ node server_socket.js
 HOST_IP also needs to be modified in **manual_control_with_websocket.py line 187**
 
 ```
-# host
+# Next, you need to start CARLA and the host on the SAME computer.
 cd ~/carla
+
+# host
 ./CarlaUE4.sh -carla-rpc-port=2000 -carla-server -carla-rpc-bind=<HOST_IP> (default: 192.168.1.1)
 python3 manual_control_with_websocket.py
 
+# Then, you need to start the client on Another computer.
 # client
 python3 manual_control_with_websocket.py --host <HOST_IP>(default: 192.168.1.1) --port 2000
 
 ```
 
 ## 4.🚀 Run ``website.html`` to get the real-time img and info.
+
+Finally, you can get the real-time image by running the website.html. Just click the file to run  it. 
+
+You should see the following window on the right:
 
 ![website](../assets/website_multiagent.png)
 

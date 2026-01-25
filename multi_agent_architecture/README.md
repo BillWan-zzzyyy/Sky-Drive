@@ -59,7 +59,7 @@ You should see the following window on the right:
 
 |                                                    Multi-agent Architecture                                                    |                                              Human-in-the-loop Example based on VR                                              |
 | :-----------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------: |
-| `<video src="https://github.com/user-attachments/assets/a0a0c98c-8c14-421c-ba32-36fcae86e27a" controls width="100%"></video>` | `<video src="https://github.com/user-attachments/assets/6dda29f7-b14b-48ea-8945-f158833291f3" controls width="100%"></video>` |
+| <video src="https://github.com/user-attachments/assets/a0a0c98c-8c14-421c-ba32-36fcae86e27a" controls width="100%"></video> | <video src="https://github.com/user-attachments/assets/6dda29f7-b14b-48ea-8945-f158833291f3" controls width="100%"></video> |
 
 ## 📚 Other resources
 

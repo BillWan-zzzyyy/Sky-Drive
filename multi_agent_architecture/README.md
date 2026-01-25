@@ -9,6 +9,8 @@
 cd multi_agent_architecture
 
 # install requirements.txt
+conda create -n skydrive-multiagent python=3.10 -y
+conda activate skydrive-multiagent
 pip install -r requirements.txt
 
 # install socket.io 

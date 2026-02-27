@@ -41,11 +41,13 @@ cd ~/carla
 
 # host
 ./CarlaUE4.sh -carla-rpc-port=2000 -carla-server -carla-rpc-bind=<HOST_IP> (default: 192.168.1.1)
-python3 manual_control_with_websocket.py
+python manual_control_with_websocket.py
 
 # Then, you need to start the client on Another computer.
 # client
-python3 manual_control_with_websocket.py --host <HOST_IP>(default: 192.168.1.1) --port 2000
+python manual_control_with_websocket.py --host <HOST_IP>(default: 192.168.1.1) --port 2000
+
+# IMPORTANT: If you want to use VR mode to start CARLA host (human in the loop example), you need to follow the following steps: 
 
 ```
 

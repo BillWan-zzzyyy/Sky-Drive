@@ -65,6 +65,7 @@ python manual_control_with_websocket.py
 # start client
 # For sky-lab use only
 conda activate carla_vr
+cd carla
 python manual_control_with_websocket.py  --host 192.168.1.1 --port 2000
 
 ```

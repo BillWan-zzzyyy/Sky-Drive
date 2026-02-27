@@ -36,20 +36,37 @@ node server_socket.js
 HOST_IP also needs to be modified in **manual_control_with_websocket.py line 187**
 
 ```
-# Next, you need to start CARLA and the host on the SAME computer.
+# 3.1 You need to start CARLA and the host on the SAME computer.
 cd ~/carla
 
-# host
+# 3.2 start host
 ./CarlaUE4.sh -carla-rpc-port=2000 -carla-server -carla-rpc-bind=<HOST_IP> (default: 192.168.1.1)
 python manual_control_with_websocket.py
 
-# Then, you need to start the client on Another computer.
+# 3.3 Then, you need to start the client on Another computer.
 # client
 python manual_control_with_websocket.py --host <HOST_IP>(default: 192.168.1.1) --port 2000
 
-# IMPORTANT: If you want to use VR mode to start CARLA host (human in the loop example), you need to follow the following steps: 
+```
+
+## IMPORTANT: If you want to use VR mode to start CARLA host (human in the loop example), you need to follow the following steps instead of 3:
+```
+# open vsvode 2019 native tools
+
+cd ~/carla
+make launch
+
+# start VR mode in Unreal Engine
+# start host
+python manual_control_with_websocket.py
+
+# start client
+# For sky-lab use only
+conda activate carla_vr
+python manual_control_with_websocket.py  --host 192.168.1.1 --port 2000
 
 ```
+
 
 ## 4.🚀 Run ``website.html`` to get the real-time img and info.
 

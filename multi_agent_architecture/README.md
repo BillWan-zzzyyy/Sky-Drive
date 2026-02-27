@@ -53,7 +53,7 @@ python manual_control_with_websocket.py --host <HOST_IP>(default: 192.168.1.1) -
 > If you want to use VR mode to start CARLA host (human in the loop example), you need to follow the following steps instead of 3
 
 ```
-# open vsvode 2019 native tools
+# open vscode 2019 native tools on WIN (running VR)
 
 cd ~/carla
 make launch
